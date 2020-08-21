@@ -4,8 +4,8 @@
 .nav {
   display: flex;
   flex-direction: column;
-  padding: 110px;
-  max-height: 110px;
+  height: 220px;
+  max-height: 220px;
   background-color: yellow;
 }
 
@@ -13,8 +13,8 @@
 .hero {
   display: flex;
   flex-direction: column;
-  padding: 192px;
-  max-height: 192px;
+  height: 384px;
+  max-height: 384px;
   background-color:blue;
 }
 
@@ -22,8 +22,8 @@
 .purple-icons-first {
   display: flex;
   flex-direction: column;
-  padding: 190px;
-  max-height: 190px;
+  height: 380px;
+  max-height: 380px;
   background-color: purple;
 }
 
@@ -31,8 +31,8 @@
 .who-we-help {
   display: flex;
   flex-direction: column;
-  padding: 145px;
-  max-height: 145px;
+  height: 290px;
+  max-height: 290px;
   background-color: green;
 }
 
@@ -40,8 +40,8 @@
 .carousel-we-exist-to {
   display: flex;
   flex-direction: column;
-  padding: 275px;
-  max-height: 275px;
+  height: 550px;
+  max-height: 550px;
   background-color: orange;
 }
 
@@ -49,8 +49,8 @@
 .get-involved {
   display: flex;
   flex-direction: column;
-  padding: 260px;
-  max-height: 260px;
+  height: 520px;
+  max-height: 520px;
   background-color: purple;
 }
 
@@ -58,8 +58,8 @@
 .footer {
   display: flex;
   flex-direction: column;
-  padding: 185px;
-  max-height: 185px;
+  height: 370px;
+  max-height: 370px;
   background-color: grey;
 }
 
