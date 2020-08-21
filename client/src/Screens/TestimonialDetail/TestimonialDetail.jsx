@@ -3,12 +3,17 @@ import './TestimonialDetail.css'
 
 const TestimonialDetail = () => {
 
-// updateTestimonial() - Dayna
-// deleteTestimonial() - Dayna
+    return (
+        <div className="testimonial-detail">
+            <div className="testimonial">
+                <h2>details page</h2>
+            </div>
+        </div>
 
-    return(
-        <h1>Update Testimonial</h1>
     )
 }
 
 export default TestimonialDetail
+
+
+   
