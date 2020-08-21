@@ -5,6 +5,7 @@
     padding: 100px;
     padding-top: 80px;
     background-color: blue;
+    justify-content: center;
 }
 
 .testimonial{
@@ -13,6 +14,6 @@
     line-height: 1.6;
     background-color:yellowgreen
 }
-.testimonial h2{
+.content{
     background-color: white;
 }
