@@ -24,7 +24,7 @@
   background-color: purple;
 }
 
-/*padding:58px*/
+/*padding:145px*/
 .who-we-help {
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@
   background-color: green;
 }
 
-/*padding:112px*/
+/*padding:275px*/
 .carousel-we-exist-to {
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@
   background-color: orange;
 }
 
-/*padding:100px*/
+/*padding:260px*/
 .get-involved {
   display: flex;
   flex-direction: column;
@@ -48,7 +48,7 @@
   background-color: purple;
 }
 
-/*padding:174px*/
+/*padding:185px*/
 .footer {
   display: flex;
   flex-direction: column;
