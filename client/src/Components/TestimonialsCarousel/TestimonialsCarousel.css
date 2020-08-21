@@ -1,0 +1,79 @@
+/* === TESTIMONIAL CAROUSEL === */
+
+.complete {
+  margin-top: 100px;
+}
+.quote {
+  position: absolute;
+  width: 30px;
+  height: 25px;
+}
+
+.right-quote {
+  bottom: 50px;
+  right: 0px;
+}
+
+.left-quote {
+  top: 25px;
+  left: 0;
+}
+
+.carousel {
+  position: relative;
+  width: 400px;
+}
+
+.testimonial {
+  font-size: 14px;
+  width: 295px;
+}
+
+.testimonial-author {
+  margin: 10px 0 0 0;
+}
+
+.carousel__inner-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  position: absolute;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  transform: translateY(-50%);
+}
+
+.back-btn {
+  top: 40%;
+  left: -75px;
+}
+
+.forward-btn {
+  top: 40%;
+  right: -75px;
+}
+
+.back-icon,
+.forward-icon {
+  height: 30px;
+  width: 17px;
+}
+
+.add-testimonial,
+.edit-testimonial {
+  border: none;
+  outline: none;
+  background-color: #92bb65;
+  color: #ffffff;
+  padding: 3px 15px;
+  margin: 10px 5px 0;
+}
+
+.add-testimonial:hover,
+.edit-testimonial:hover {
+  cursor: pointer;
+}

@@ -9,7 +9,7 @@ import {
   ButtonNext,
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import "./index.css";
+import "./TestimonialsCarousel.css";
 // import Content from "./testimonials.js";
 import LeftQuote from "./assets/left-quote.png";
 import RightQuote from "./assets/right-quote.png";
