@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
+
 import './TestimonialDetail.css'
+/* import { getTestimonial, updateTestimonial, deleteTestimonial } from '../Services/Testimonials' */
 
 const TestimonialDetail = () => {
+
+/*     const [content, setContent] =  */
 
     return (
         <div className="testimonial-detail">
