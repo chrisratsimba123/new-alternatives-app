@@ -1,0 +1,18 @@
+
+
+.testimonial-detail{
+    display: flex;
+    padding: 100px;
+    padding-top: 80px;
+    background-color: blue;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    background-color:yellowgreen
+}
+.testimonial h2{
+    background-color: white;
+}
