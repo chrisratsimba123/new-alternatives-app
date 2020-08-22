@@ -3,7 +3,6 @@ import "./TestimonialCreate.css";
 import { Redirect } from "react-router-dom";
 import Layout from "../../Components/Shared/Layout/Layout";
 import { createTestimonial } from "../../Services/Testimonials";
-// import Left from "."
 
 const TestimonialCreate = () => {
   const [testimonial, updateTestimonial] = useState({
