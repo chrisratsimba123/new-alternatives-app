@@ -1,17 +1,32 @@
-/*Outermost layers are padding only*/
-
-/*padding:110px*/
+/*
+/* <Nav /> Component*/
 .nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 220px;
   max-height: 220px;
-  
   background-color: yellow;
 }
 
-/*padding:192px*/
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  height: 108px;
+  max-height: 108px;
+  margin-left: 195px;
+  background-color: rgb(184, 184, 3);
+  z-index: 1;
+}
+
+.donate {
+  height: 50px;
+  width: 126px;
+}
+
+/*
+/* <Hero /> Component*/
 .hero {
   display: flex;
   flex-direction: column;
@@ -21,7 +36,10 @@
   background-color:blue;
 }
 
-/*padding:190px*/
+/*
+/* <Homepage /> Screen*/
+
+/* Section: First Row of Three Purple Icons*/
 .purple-icons-first {
   display: flex;
   flex-direction: column;
@@ -31,7 +49,7 @@
   background-color: purple;
 }
 
-/*padding:145px*/
+/* Section: Who We Help*/
 .who-we-help {
   display: flex;
   flex-direction: column;
@@ -41,7 +59,7 @@
   background-color: green;
 }
 
-/*padding:275px*/
+/* Section: We Exist To - Carousel*/
 .carousel-we-exist-to {
   display: flex;
   flex-direction: column;
@@ -51,7 +69,7 @@
   background-color: orange;
 }
 
-/*padding:260px*/
+/* Section: Get Involved*/
 .get-involved {
   display: flex;
   flex-direction: column;
@@ -61,7 +79,7 @@
   background-color: purple;
 }
 
-/*padding:185px*/
+/* <Footer /> Component*/
 .footer {
   display: flex;
   flex-direction: column;
@@ -71,9 +89,16 @@
   background-color: grey;
 }
 
-p {
-  font-size: 5px;
-  padding: 0px;
-  margin: 0px;
-  z-index: 2000;
+/*
+/* Global*/
+button {
+  outline: none;
+  color: rgb(255,255,255);
+  border-radius: 5px; 
+  border: none;
+  background-color: rgb(148,185,87);
+}
+
+button:hover {
+  border-radius: 0px;
 }
