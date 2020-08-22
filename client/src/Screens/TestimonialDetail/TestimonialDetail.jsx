@@ -21,10 +21,10 @@ const TestimonialDetail = () => {
     }, [id])
 
     const handleChange = (e) => {
-        const { key, value } = e.target
+        const { name, value } = e.target
         setTestimonial({
             ...testimonial, 
-            [key]: value
+            [name]: value
         })
     }
 
@@ -34,16 +34,15 @@ const TestimonialDetail = () => {
                 <form>
                     <textarea 
                         className="edit-content"
+                        name="content"
                         value={testimonial.content}
-                        key='content'
-                        required
                         onChange={handleChange}
-                        placeholder="This is my testimonial to new alternatives"
+                        required
                     />
                     <input 
                         className="edit-author"
                         value={testimonial.author}
-                        key="author"
+                        name="author"
                         required
                         onChange={handleChange}
                         placeholder="- This is who wrote it"
