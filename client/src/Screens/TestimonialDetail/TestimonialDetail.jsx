@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, Redirect } from 'react-router-dom'
 
 import './TestimonialDetail.css'
-import { getTestimonial } from '../../Services/Testimonials'
+import { getTestimonial, updateTestimonial } from '../../Services/Testimonials'
 
-const TestimonialDetail = () => {
+const TestimonialDetail = (props) => {
 
     const [testimonial, setTestimonial] =  useState({ 
         content: '',
         author: '',
     })
     let { id } = useParams()
+    const [updated, setUpdated] = useState(false)
 
     useEffect(() => {
         const grabTestimonial = async () => {
@@ -28,10 +29,20 @@ const TestimonialDetail = () => {
         })
     }
 
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        let { id } = props.match.params
+        const updateReq = await updateTestimonial(id, testimonial)
+        setUpdated(updateReq) 
+    }
+
+     if (updated){
+        return <Redirect to={`/testimonials/${props.match.params.id}`}/>
+    } 
     return (
         <div className="testimonial-detail">
             <div className="testimonial">
-                <form>
+                <form onSubmit={handleSubmit}>
                     <textarea 
                         className="edit-content"
                         name="content"
@@ -48,7 +59,7 @@ const TestimonialDetail = () => {
                         placeholder="- This is who wrote it"
                     />
                     <div className="button-container">
-                        <button className="button-edit">Edit</button>
+                        <button type='submit' className="button-save">Save</button>
                         <button className="button-delete">Delete</button>
                     </div>
                 </form>
