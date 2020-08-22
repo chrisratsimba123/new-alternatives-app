@@ -1,6 +1,5 @@
 import React from "react";
-
-import { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   CarouselProvider,
   Slider,
@@ -10,32 +9,23 @@ import {
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import "./TestimonialsCarousel.css";
-// import Content from "./testimonials.js";
-import LeftQuote from "./assets/left-quote.png";
-import RightQuote from "./assets/right-quote.png";
-import LeftArrow from "./assets/left-arrow.png";
-import RightArrow from "./assets/right-arrow.png";
-// import Testimonial from "./Testimonial";
+import LeftQuote from "../../Assets/left-quote.png";
+import RightQuote from "../../Assets/right-quote.png";
+import LeftArrow from "../../Assets/left-arrow.png";
+import RightArrow from "../../Assets/right-arrow.png";
 
 function Carousel(props) {
-  const testimonials = Content;
-  const [index, updateIndex] = useState();
-
-  const handleClick = (e) => {
-    e.preventDefault();
-    updateIndex(Number(e.target.value));
-  };
-  console.log(testimonials[index]);
+  const testimonials = props.content;
 
   return (
-    <div className="complete">
+    <div className="complete-component">
       <CarouselProvider
         naturalSlideWidth={400}
         naturalSlideHeight={200}
         totalSlides={testimonials.length}
       >
         <ButtonBack className="btn back-btn">
-          <img className="back-icon" src={LeftArrow} />
+          <img className="back-icon" src={LeftArrow} alt="left arrow" />
         </ButtonBack>
         <Slider className="slicer-container">
           {testimonials.map((testimonial, ndx) => {
@@ -46,28 +36,29 @@ function Carousel(props) {
                   alt="quote mark"
                   className="quote left-quote"
                 />
-                <div className="testimonial-box">
+                <div className="testimonial-container">
                   <div className="testimonial">{testimonial.content}</div>
                   <div className="testimonial-author-box">
                     <h5 className="testimonial-author">
                       {`-- ${testimonial.author}`}
                     </h5>
                   </div>
-                  <button
-                    className="add-testimonial"
-                    onClick={handleClick}
-                    value={ndx}
-                  >
+                </div>
+                <div className="button-container">
+                  <Link className="add-testimonial" to={`/create-testimonial`}>
                     add testimonial
-                  </button>
-                  <button
+                  </Link>
+                  <Link
                     className="edit-testimonial"
-                    onClick={handleClick}
-                    value={ndx}
+                    to={{
+                      pathname: `/detail-testimonial/${testimonial._id}`,
+                      props: testimonial,
+                    }}
                   >
                     edit testimonial
-                  </button>
+                  </Link>
                 </div>
+
                 <img
                   src={RightQuote}
                   alt="quote mark"
@@ -78,7 +69,7 @@ function Carousel(props) {
           })}
         </Slider>
         <ButtonNext className="btn forward-btn">
-          <img className="forward-icon" src={RightArrow} />
+          <img className="forward-icon" src={RightArrow} alt="right arrow" />
         </ButtonNext>
       </CarouselProvider>
     </div>

@@ -1,7 +1,9 @@
 /* === TESTIMONIAL CAROUSEL === */
 
-.complete {
+.complete-component {
   margin-top: 100px;
+  display: flex;
+  justify-content: center;
 }
 .quote {
   position: absolute;
@@ -24,6 +26,13 @@
   width: 400px;
 }
 
+.testimonial-container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .testimonial {
   font-size: 14px;
   width: 295px;
@@ -35,6 +44,7 @@
 
 .carousel__inner-slide {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -65,6 +75,8 @@
 
 .add-testimonial,
 .edit-testimonial {
+  display: inline-block;
+  text-decoration: none;
   border: none;
   outline: none;
   background-color: #92bb65;

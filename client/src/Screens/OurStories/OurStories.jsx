@@ -1,11 +1,25 @@
-import React, { useState, useEffect } from 'react'
-import './OurStories.css'
+import React, { useState, useEffect } from "react";
+import "./OurStories.css";
+import TestimonialsCarousel from "../../Components/TestimonialsCarousel/TestimonialsCarousel";
+import { getTestimonials } from "../../Services/Testimonials";
 
 const OurStories = () => {
+  const [testimonials, updateTestimonials] = useState([]);
 
-    return(
-        <h1>Our Stories</h1>
-    )
-}
+  useEffect(() => {
+    const fetchTestimonials = async () => {
+      const res = await getTestimonials();
+      updateTestimonials(res);
+    };
+    fetchTestimonials();
+  }, []);
 
-export default OurStories
+  return (
+    <div className="complete-our-stories">
+      <h1>Our Stories</h1>
+      <TestimonialsCarousel content={testimonials} />
+    </div>
+  );
+};
+
+export default OurStories;
