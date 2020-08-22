@@ -39,7 +39,7 @@ const createTestimonial = async (req, res) => {
 
 const updateTestimonial = async (req, res) => {
     const { id } = req.params
-    await Testimonial.findByIdAndUpdate(id, req.body, { new: true }, (error, Testimonial) => {
+    await Testimonial.findByIdAndUpdate(id, req.body, { new: true }, (error, testimonial) => {
         if (error) {
             return res.status(500).json({ error: error.message })
         }
