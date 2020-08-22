@@ -17,12 +17,11 @@
   max-height: 108px;
   margin: 93px auto 0px 195px ;
   background-color: rgb(184, 184, 3);
-  z-index: 1;
 }
 
 .donate {
-  height: 60px;
   width: 126px;
+  height: 60px;
   margin-top: 63px;
   margin-right: 78px;
 }
@@ -33,9 +32,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 15px;
   width: 213px;
   max-width: 213px;
+  padding: 15px;
   margin-top: 63px;
   margin-right: 36px;
   margin-bottom: 97px;
@@ -74,25 +73,20 @@
 
 /* Section: Who We Help*/
 .who-we-help {
-  color: rgb(255,255,255);
   display: flex;
   flex-direction: column;
   height: 290px;
   max-height: 290px;
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;
   background-color: rgb(148,185,87);
 }
 
 .who-we-help-h1{ 
-  display: flex;
-  fl: column;
   max-height: 290px;
-  color: rgb(255, 255, 255);
 }
 
 .who-we-help-p {
-  display: flex;
-  flex-direction: column;
-  color: rgb(255, 255, 255);
   height: 290;
   max-height: 290px;
   text-align: justify;
@@ -134,10 +128,10 @@
 /*
 /* Global*/
 button {
-  outline: none;
   color: rgb(255,255,255);
   border-radius: 8px; 
   border: none;
+  outline: none;
   background-color: rgb(148,185,87);
 }
 
@@ -151,10 +145,12 @@ h1 {
 
 p {
   font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*For wireframing only*/
 h1 {
   display: flex;
   justify-content: center;
+  font-family: 'Open Sans', sans-serif;
 }
