@@ -23,7 +23,6 @@ textarea {
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: hidden;
-  background-color: yellow;
   width: 90%;
 }
 
@@ -36,7 +35,6 @@ textarea {
   height: 60px;
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: pink;
 }
 
 .input-image-link {
