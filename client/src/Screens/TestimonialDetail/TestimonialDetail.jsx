@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams, Redirect } from 'react-router-dom'
 
 import './TestimonialDetail.css'
-import { getTestimonial, updateTestimonial } from '../../Services/Testimonials'
+import { getTestimonial, updateTestimonial, deleteTestimonial } from '../../Services/Testimonials'
 
 const TestimonialDetail = (props) => {
 
@@ -60,7 +60,10 @@ const TestimonialDetail = (props) => {
                     />
                     <div className="button-container">
                         <button type='submit' className="button-save">Save</button>
-                        <button className="button-delete">Delete</button>
+                        <button 
+                            className="button-delete"
+                            onClick={()=> deleteTestimonial(testimonial._id)}
+                        >Delete</button>
                     </div>
                 </form>
             </div>
