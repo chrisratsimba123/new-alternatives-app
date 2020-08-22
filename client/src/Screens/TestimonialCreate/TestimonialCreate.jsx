@@ -3,6 +3,7 @@ import "./TestimonialCreate.css";
 import { Redirect } from "react-router-dom";
 import Layout from "../../Components/Shared/Layout/Layout";
 import { createTestimonial } from "../../Services/Testimonials";
+// import Left from "."
 
 const TestimonialCreate = () => {
   const [testimonial, updateTestimonial] = useState({
@@ -31,20 +32,20 @@ const TestimonialCreate = () => {
     <div className="complete-testimonial-create-screen">
       <h1>Add New Testimonial</h1>
       <form className="create-form" onSubmit={handleSubmit}>
-        <label htmlFor="content">Your Testimonial:</label>
+        <label htmlFor="content" />
         <textarea
           className="textarea-content"
           rows={10}
-          placeholder="Content"
-          // value={post.content}
+          placeholder="Testimonial:"
+          value={testimonial.content}
           name="content"
           required
           onChange={handleChange}
         />
-        <label htmlFor="author">Author:</label>
+        <label htmlFor="author" />
         <input
           className="input-author"
-          placeholder="Author"
+          placeholder="Author:"
           value={testimonial.author}
           name="author"
           required
