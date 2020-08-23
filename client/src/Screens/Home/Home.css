@@ -15,15 +15,24 @@
   width: 210px;
   height: 108px;
   max-height: 108px;
-  margin: 93px auto 0px 195px ;
+  margin: 93px 0px 0px 0px ;
   background-color: rgb(184, 184, 3);
 }
 
-.donate {
-  width: 126px;
-  height: 60px;
-  margin-top: 63px;
-  margin-right: 78px;
+.nav-bar {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  width: 440px;
+  margin-left: 170px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 17px;
+  height: 56px;
+  list-style: none;
 }
 
 /*
@@ -34,18 +43,41 @@
   justify-content: space-around;
   width: 213px;
   max-width: 213px;
-  padding: 15px;
-  margin-top: 63px;
-  margin-right: 36px;
-  margin-bottom: 97px;
+  height: 60px;
+  margin-bottom: 40px;
   background-color: rgb(210, 210, 210);
 }
 
 .social-icon {
   width: 28px;
   height:28px;
+  margin-top: 15px;
   background-color:  rgb(184, 184, 3);
 }
+/**/
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 0px;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+}
+
+.donate {
+  width: 126px;
+  height: 60px;
+  margin-top: 63px;
+  margin-right: 78px;
+}
+/**/
 
 /*
 /* <Hero /> Component*/
@@ -55,13 +87,29 @@
   justify-content: center;
   height: 384px;
   max-height: 384px;
-  background-color:blue;
+  background-color: blue;
 }
 
-/*
-/* <Homepage /> Screen*/
+.shadow-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  color: rgb(225,225,225);
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+  padding-left: 50px;
+  margin-top: 60px;
+  margin-right: 760px;
+  margin-bottom: 70px;
+  margin-left: 250px;
+  background-color: rgba(0,0,0,.3);
+}
+/**/
 
-/* Section: First Row of Three Purple Icons*/
+/*
+/* <Homepage /> Section: First Row of Three Purple Icons*/
 .purple-icons-first {
   display: flex;
   flex-direction: column;
@@ -71,14 +119,15 @@
   background-color: purple;
 }
 
-/* Section: Who We Help*/
+/*
+/* <Homepage /> Section: Who We Help*/
 .who-we-help {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 290px;
   max-height: 290px;
   color: rgb(255, 255, 255);
-  font-family: 'Open Sans', sans-serif;
   background-color: rgb(148,185,87);
 }
 
@@ -91,10 +140,11 @@
   max-height: 290px;
   text-align: justify;
   text-justify: inter-word;
-  margin: 0px 320px 0px 270px;
+  margin: 0px 320px 50px 270px;
 }
 
-/* Section: We Exist To - Carousel*/
+/*
+/* <Carousel /> We Exist To */
 .carousel-we-exist-to {
   display: flex;
   flex-direction: column;
@@ -104,7 +154,8 @@
   background-color: orange;
 }
 
-/* Section: Get Involved*/
+/*
+/* Homepage /> Section: Get Involved*/
 .get-involved {
   display: flex;
   flex-direction: column;
@@ -114,6 +165,7 @@
   background-color: rgb(255,255,255);
 }
 
+/*
 /* <Footer /> Component*/
 .footer {
   display: flex;
@@ -126,6 +178,10 @@
 
 /*
 /* Global*/
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 button {
   color: rgb(255,255,255);
   border-radius: 8px; 
@@ -139,17 +195,17 @@ button:hover {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 p {
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
+  
 }
+
 
 /*For wireframing only*/
 h1 {
   display: flex;
   justify-content: center;
-  font-family: 'Open Sans', sans-serif;
 }
