@@ -184,6 +184,8 @@ li {
   justify-content: center;
   height: 290px;
   max-height: 290px;
+  min-width: 800px;
+  overflow: hidden;
   color: rgb(255, 255, 255);
   background-color: rgb(148,185,87);
 }
