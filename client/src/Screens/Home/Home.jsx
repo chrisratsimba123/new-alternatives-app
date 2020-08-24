@@ -1,38 +1,46 @@
 import React, { useState, useEffect } from 'react'
 import './Home.css'
+import IconDollarSign from '../../Assets/purple-icon_dollar-sign.png'
+import IconFlag from '../../Assets/purple-icon_flag.png'
+import IconKnifeAndFork from'../../Assets/purple-icon_knife-and-fork.png'
+import IconTwoHands from'../../Assets/purple-icon_two-hands.png'
+import IconHandsHeart from '../../Assets/purple-icon_hands-heart.png'
+import IconHandWithCoin from '../../Assets/purple-icon_hand-with-coin.png'
+
+
 
 const Home = () => {
 
   return (
     <>
-      <div className='layout'>
-        
-       
-
-         
-          
-         
-      
-
-        <div className='purple-icons-first'>
-          <div className='icon'>
+      <div className='purple-icons-first'>
+        <div className='icon'>
+          <div className='icon-image'>
+          <img src={IconDollarSign} alt='Icon: Dollar sign' />
             <div className='icon-text'>
               <h1>$500K</h1>
               <p>raised in one year</p>
             </div>
           </div>
-          <div className='icon'>
-            <div className='icon-text'>
+        </div>
+        <div className='icon'>
+          <div className='icon-image'>
+          <img src={IconFlag} alt='Icon: Flag' />
+          <div className='icon-text'>
               <h1>40%</h1>
               <p>of LGBTQ+ are<br/>homeless in NYC</p>
             </div>
-          </div>
-          <div className='icon'>
+         </div>
+        </div>
+        <div className='icon'>
+          <div className='icon-image'>
+          <img src={IconKnifeAndFork} alt='Icon: Knife and fork' />
             <div className='icon-text'>
               <h1>10K</h1>
               <p>meals provided thus far</p>
             </div>
           </div>
+        </div>
         </div>
 
         <div className='who-we-help'>
@@ -44,20 +52,18 @@ const Home = () => {
 
         <div className='get-involved'>
           <h1>Get Involved</h1>
-          <div className='get-involved-icon'>
-
+          <div className='get-involved-icons'>
+          <img src={IconTwoHands} alt='Icon: Two hands' />
+          <img src={IconHandsHeart} alt='Icon: Hands in the shape of a heart' />
+          <img src={IconHandWithCoin} alt='Icon: Hand with coin in between index finger and thumb' />
           </div>
-          <div className='get-involved-text'>
-          <h2>Get Help</h2>
-          <h2>Volunteer</h2>
-          <h2>Donate</h2>
+            <div className='get-involved-text'>
+              <h2>Get Help</h2>
+              <h2>Volunteer</h2>
+              <h2>Donate</h2>
           </div> 
-          
-        </div>
-
         
-          
-    </div>
+      </div>
     </>
     )
 }

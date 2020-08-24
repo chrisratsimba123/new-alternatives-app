@@ -1,8 +1,4 @@
 
-
-
-
-/*
 /* <Homepage /> Section: First Row of Three Purple Icons*/
 .purple-icons-first {
   display: flex;
@@ -20,15 +16,10 @@
   flex-direction: column;
 }
 
-.icon-image {
-
-}
-
 .icon-text {
  display: flex;
  flex-direction: column;
  justify-content: space-evenly;
- padding-top: 180px;
 }
 
 .icon-text h1 {
@@ -40,6 +31,7 @@
   font-size: 20px;
   text-align: center;
 }
+
 /*
 /* <Homepage /> Section: Who We Help*/
 .who-we-help {
@@ -55,18 +47,19 @@
 }
 
 .who-we-help-h1{ 
+  font-size: 50px;
+  font-weight: 800;
   max-height: 290px;
 }
 
 .who-we-help-p {
+  font-size: 20px;
   height: 290;
   max-height: 290px;
   text-align: justify;
   text-justify: inter-word;
   margin: 0px 320px 50px 270px;
 }
-
-
 
 /*
 /* Homepage /> Section: Get Involved*/
@@ -80,9 +73,11 @@
   background-color: rgb(255,255,255);
 }
 
-.get-involved-icon {
+.get-involved-icons {
+  display: flex;
+  justify-content: space-evenly;
   height: 160px;
-  background-color: purple;
+ 
 }
 
 .get-involved-text {
