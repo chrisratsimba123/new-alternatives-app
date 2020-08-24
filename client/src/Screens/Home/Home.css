@@ -100,6 +100,7 @@ li {
   justify-content: center;
   height: 384px;
   max-height: 384px;
+  /*background-image: url('');*/
   background-color: blue;
 }
 
@@ -145,8 +146,8 @@ li {
   justify-content: space-around;
   height: 380px;
   max-height: 380px;
-  margin-left: 200px;
   margin-right: 170px;
+  margin-left: 200px;
   /*background-color: purple;*/
 }
 

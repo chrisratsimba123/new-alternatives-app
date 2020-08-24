@@ -72,14 +72,13 @@ const Home = () => {
         </div>
 
         <div className='carousel-we-exist-to'>
-          <h1>We Exist To Carousel</h1>
-          <p>DO NOT STYLE</p>
+          <h1>We Exist To Carousel DO NOT STYLE</h1>
         </div>
 
         <div className='get-involved'>
           <h1>Get Involved</h1>
           <div className='get-involved-icon'>
-            
+
           </div>
           <div className='get-involved-text'>
           <h2>Get Help</h2>
@@ -90,7 +89,7 @@ const Home = () => {
         </div>
 
         <div className='footer'>
-          <h1>Footer</h1>
+          <h1>Footer DO NOT STYLE</h1>
         </div>
           
     </div>
