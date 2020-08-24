@@ -4,7 +4,7 @@ import { useParams, Redirect } from 'react-router-dom'
 import './TestimonialDetail.css'
 import { getTestimonial, updateTestimonial, deleteTestimonial } from '../../Services/Testimonials'
 
-const TestimonialDetail = (props) => {
+const TestimonialDetail = () => {
 
     const [testimonial, setTestimonial] =  useState({ 
         content: '',
@@ -32,9 +32,8 @@ const TestimonialDetail = (props) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        let { id } = props.match.params
         const updateReq = await updateTestimonial(id, testimonial)
-        setUpdated(updateReq) 
+        setUpdated(true) 
     }
 
      if (updated){
