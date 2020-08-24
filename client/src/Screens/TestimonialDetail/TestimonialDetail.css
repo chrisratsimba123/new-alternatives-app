@@ -1,6 +1,4 @@
-
-
-.testimonial-detail{
+.complete-testimonial-detail-screen{
     display: flex;
     padding: 100px;
     padding-top: 80px;
@@ -9,11 +7,15 @@
     justify-content: center;
 }
 
-.testimonial{
+.testimonial-form{
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
-    line-height: 1.6;
-    /*  background-color:yellowgreen  */
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .edit-content{
      padding: 10px;
