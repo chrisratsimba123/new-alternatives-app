@@ -14,6 +14,8 @@ import RightQuote from "../../Assets/right-quote.png";
 import LeftArrow from "../../Assets/left-arrow.png";
 import RightArrow from "../../Assets/right-arrow.png";
 
+// testing merge
+
 function Carousel(props) {
   const testimonials = props.content;
 
