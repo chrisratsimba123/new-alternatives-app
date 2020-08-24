@@ -5,12 +5,12 @@ import './TestimonialDetail.css'
 import { getTestimonial, updateTestimonial, deleteTestimonial } from '../../Services/Testimonials'
 
 const TestimonialDetail = (props) => {
-
+    const { testimonial } = props
     const [testimonial, setTestimonial] =  useState({ 
         content: '',
         author: '',
     })
-    let { id } = useParams()
+    /* let { id } = useParams() */
 
     const [updated, setUpdated] = useState(false)
 
