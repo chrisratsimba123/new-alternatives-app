@@ -37,7 +37,7 @@ const TestimonialDetail = (props) => {
     }
 
      if (updated){
-        return <Redirect to={`/testimonials/${props.match.params.id}`}/>
+        return <Redirect to={'/our-stories'}/>
     } 
     return (
         <div className="testimonial-detail">
