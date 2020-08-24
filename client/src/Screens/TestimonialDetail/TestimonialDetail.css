@@ -1,7 +1,7 @@
 .complete-testimonial-detail-screen{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 .testimonial-form{
@@ -16,7 +16,7 @@
 }
 .edit-content{
      padding: 10px;
-     height: 50%;
+     height: 45%;
      box-sizing: border-box;
      width: 90%;
 } 

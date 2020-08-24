@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { useParams, Redirect } from 'react-router-dom'
 
 import './TestimonialDetail.css'
+import '../../Components/Shared/Nav/Nav.css'
+import Nav from '../../Components/Shared/Nav/Nav'
 import { getTestimonial, updateTestimonial, deleteTestimonial } from '../../Services/Testimonials'
 
 const TestimonialDetail = (props) => {
@@ -41,8 +43,9 @@ const TestimonialDetail = (props) => {
         return <Redirect to={"/our-stories"}/>
     } 
     return (
-        <div className="complete-testimonial-detail-screen">
-            <div>
+        <>
+            <Nav />
+            <div className="complete-testimonial-detail-screen">
                 <form  className="testimonial-form" onSubmit={handleSubmit}>
                     <textarea 
                         className="edit-content"
@@ -67,8 +70,7 @@ const TestimonialDetail = (props) => {
                     </div>
                 </form>
             </div>
-        </div>
-
+        </>
     );
 };
 
