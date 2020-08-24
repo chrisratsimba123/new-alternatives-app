@@ -1,0 +1,41 @@
+
+
+.testimonial-detail{
+    display: flex;
+    padding: 100px;
+    padding-top: 80px;
+    margin-top: 150px;
+    /* background-color: blue;  */
+    justify-content: center;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    /*  background-color:yellowgreen  */
+}
+.edit-content{
+     padding: 10px;
+     height: 100px;
+     box-sizing: border-box;
+     width: 100%;
+} 
+.edit-author{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+.button-save{
+    padding: 5px;
+    margin-left: 60px;
+}
+
+.button-delete{
+    padding: 6px;
+    margin-right: 60px;
+}
