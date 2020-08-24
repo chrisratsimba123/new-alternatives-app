@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import "./TestimonialCreate.css";
-import { Redirect } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import Layout from "../../Components/Shared/Layout/Layout";
 import { createTestimonial } from "../../Services/Testimonials";
+import LeftQuote from "../../Assets/left-quote.png";
+import RightQuote from "../../Assets/right-quote.png";
 
 const TestimonialCreate = () => {
+  const history = useHistory();
   const [testimonial, updateTestimonial] = useState({
     content: "",
     author: "",
@@ -23,23 +26,43 @@ const TestimonialCreate = () => {
     updateIsCreated({ created });
   };
 
-  // const delayedRedirect = () => {
-  //   return <Redirect to={"/our-stories"} />;
-  // };
+  const testingRedirect = () => {
+    history.push("/our-stories");
+  };
 
   if (isCreated) {
-    // setTimeout(delayedRedirect, 2000);
-    return <Redirect to={"/our-stories"} />;
+    setTimeout(testingRedirect, 3000);
+
+    return (
+      <div className="submit-thankyou-container">
+        <h1 className="submit-thankyou">Thank You!</h1>
+        <p className="submit-thankyou-text">
+          All new testimonials are reviewed and posted within 7 to 10 working
+          days.
+        </p>
+      </div>
+    );
   }
 
   return (
     <div className="complete-testimonial-create-screen">
       <h1>Add New Testimonial</h1>
+      <p>
+        Please enter your new testimonial below.
+        <br />
+        (300 character limit)
+      </p>
       <form className="create-form" onSubmit={handleSubmit}>
+        <img
+          src={LeftQuote}
+          alt="quote mark"
+          className="quote-create left-quote-create"
+        />
         <label htmlFor="content" />
         <textarea
           className="textarea-content"
           rows={10}
+          maxLength="300"
           placeholder="Testimonial:"
           value={testimonial.content}
           name="content"
@@ -51,6 +74,7 @@ const TestimonialCreate = () => {
           className="input-author"
           placeholder="Author:"
           value={testimonial.author}
+          maxLength="25"
           name="author"
           required
           onChange={handleChange}
@@ -58,6 +82,11 @@ const TestimonialCreate = () => {
         <button type="submit" className="submit-button">
           Submit
         </button>
+        <img
+          src={RightQuote}
+          alt="quote mark"
+          className="quote-create right-quote-create"
+        />
       </form>
     </div>
   );
