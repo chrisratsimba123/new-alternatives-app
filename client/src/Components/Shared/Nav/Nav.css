@@ -1,0 +1,72 @@
+/*
+/* <Nav /> Component*/
+.nav-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 220px;
+  max-height: 220px;
+  background-color: yellow;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  height: 108px;
+  max-height: 108px;
+  margin: 93px 0px 0px 0px ;
+  background-color: rgb(184, 184, 3);
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  width: 440px;
+  margin-left: 170px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 17px;
+  height: 56px;
+  list-style: none;
+}
+
+.nav-menu li{
+  display: flex;
+  flex-direction: column;
+  flex-flow: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 0px;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+}
+
+.donate {
+  width: 126px;
+  height: 60px;
+  margin-top: 63px;
+  margin-right: 78px;
+}
+/**/

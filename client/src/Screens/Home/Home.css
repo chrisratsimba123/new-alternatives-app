@@ -1,0 +1,106 @@
+
+
+
+
+/*
+/* <Homepage /> Section: First Row of Three Purple Icons*/
+.purple-icons-first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 380px;
+  max-height: 380px;
+  margin-right: 170px;
+  margin-left: 200px;
+  /*background-color: purple;*/
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-image {
+
+}
+
+.icon-text {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ padding-top: 180px;
+}
+
+.icon-text h1 {
+  font-size: 50px;
+  margin-bottom: -20px;
+}
+
+.icon-text p {
+  font-size: 20px;
+  text-align: center;
+}
+/*
+/* <Homepage /> Section: Who We Help*/
+.who-we-help {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 290px;
+  max-height: 290px;
+  min-width: 800px;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  background-color: rgb(148,185,87);
+}
+
+.who-we-help-h1{ 
+  max-height: 290px;
+}
+
+.who-we-help-p {
+  height: 290;
+  max-height: 290px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 0px 320px 50px 270px;
+}
+
+
+
+/*
+/* Homepage /> Section: Get Involved*/
+.get-involved {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 520px;
+  max-height: 520px;
+  margin-top: 0px;
+  background-color: rgb(255,255,255);
+}
+
+.get-involved-icon {
+  height: 160px;
+  background-color: purple;
+}
+
+.get-involved-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+  
+}
+
+.get-involved h1 {
+  font-size: 50px;
+}
+
+.get-involved h2 {
+  font-size: 30px;
+}
+
+
+
+
+
