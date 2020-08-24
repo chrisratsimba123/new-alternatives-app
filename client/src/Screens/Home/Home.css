@@ -6,9 +6,10 @@
   justify-content: space-around;
   height: 380px;
   max-height: 380px;
+  padding-top: 40px;
   margin-right: 170px;
   margin-left: 200px;
-  /*background-color: purple;*/
+ 
 }
 
 .icon {
