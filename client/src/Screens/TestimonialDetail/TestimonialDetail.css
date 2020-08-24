@@ -15,6 +15,27 @@
     line-height: 1.6;
     /*  background-color:yellowgreen  */
 }
-.content{
-     /* background-color: white;  */
+.edit-content{
+     padding: 10px;
+     height: 100px;
+     box-sizing: border-box;
+     width: 100%;
 } 
+.edit-author{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+.button-save{
+    padding: 5px;
+    margin-left: 60px;
+}
+
+.button-delete{
+    padding: 6px;
+    margin-right: 60px;
+}

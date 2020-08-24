@@ -56,7 +56,6 @@ const TestimonialDetail = (props) => {
                         name="author"
                         required
                         onChange={handleChange}
-                        placeholder="- This is who wrote it"
                     />
                     <div className="button-container">
                         <button type='submit' className="button-save">Save</button>
