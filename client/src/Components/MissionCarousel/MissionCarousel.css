@@ -1,0 +1,10 @@
+/*
+/* <Carousel /> We Exist To */
+.carousel-we-exist-to {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 550px;
+  max-height: 550px;
+  background-color: orange;
+}

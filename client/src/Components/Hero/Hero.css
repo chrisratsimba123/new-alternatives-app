@@ -1,0 +1,45 @@
+/*
+/* <Hero /> Component*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 384px;
+  max-height: 384px;
+  /*background-image: url('');*/
+  background-color: blue;
+}
+
+.shadow-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 160px;
+  max-height:160px;
+  text-align: left;
+  color: rgb(225,225,225);
+  padding-top: 80px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  margin-top: 60px;
+  margin-right: 760px;
+  margin-bottom: 70px;
+  margin-left: 250px;
+  background-color: rgba(0,0,0,.3);
+  position: absolute;
+}
+
+.shadow-box p{
+  font-size: 15px;
+  margin-top: 0px;
+  margin-right: 15px;
+  margin-left: -20px;
+}
+
+.shadow-box h2 {
+  margin-top: -40px;
+  margin-right: 2px;
+  margin-left: -20px;
+}
+/**/

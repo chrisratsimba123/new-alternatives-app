@@ -1,0 +1,20 @@
+/*
+/*<Social /> Component> */
+.social-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 213px;
+  max-width: 213px;
+  height: 60px;
+  margin-bottom: 40px;
+  background-color: rgb(210, 210, 210);
+}
+
+.social-icon {
+  width: 28px;
+  height:28px;
+  margin-top: 15px;
+  background-color:  rgb(184, 184, 3);
+}
+/**/
