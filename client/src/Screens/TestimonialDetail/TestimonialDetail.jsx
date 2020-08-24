@@ -42,8 +42,8 @@ const TestimonialDetail = (props) => {
     } 
     return (
         <div className="complete-testimonial-detail-screen">
-            <div className="testimonial-form">
-                <form onSubmit={handleSubmit}>
+            <div>
+                <form  className="testimonial-form" onSubmit={handleSubmit}>
                     <textarea 
                         className="edit-content"
                         name="content"
