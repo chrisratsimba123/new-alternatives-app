@@ -11,6 +11,7 @@ const TestimonialDetail = (props) => {
         author: '',
     })
     let { id } = useParams()
+
     const [updated, setUpdated] = useState(false)
 
     useEffect(() => {
