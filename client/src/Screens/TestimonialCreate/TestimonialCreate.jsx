@@ -23,7 +23,12 @@ const TestimonialCreate = () => {
     updateIsCreated({ created });
   };
 
+  // const delayedRedirect = () => {
+  //   return <Redirect to={"/our-stories"} />;
+  // };
+
   if (isCreated) {
+    // setTimeout(delayedRedirect, 2000);
     return <Redirect to={"/our-stories"} />;
   }
 
