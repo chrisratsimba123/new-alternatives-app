@@ -73,6 +73,3 @@ const TestimonialDetail = (props) => {
 }
 
 export default TestimonialDetail
-
-
-   
