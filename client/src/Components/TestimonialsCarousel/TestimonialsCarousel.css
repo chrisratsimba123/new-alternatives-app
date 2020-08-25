@@ -4,6 +4,7 @@
   margin-top: 100px;
   display: flex;
   justify-content: center;
+  font-family: "Open Sans", sans-serif;
 }
 .quote {
   position: absolute;
@@ -26,6 +27,19 @@
   width: 400px;
 }
 
+/* .carousel__dot {
+  height: 20px;
+  width: 20px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: blue;
+}
+
+.carousel__dot--selected {
+  background-color: yellow;
+} */
+
 .testimonial-container {
   height: 200px;
   display: flex;
@@ -35,7 +49,9 @@
 
 .testimonial {
   font-size: 14px;
+  line-height: 1.2 !important;
   width: 295px;
+  overflow-wrap: break-word;
 }
 
 .testimonial-author {
