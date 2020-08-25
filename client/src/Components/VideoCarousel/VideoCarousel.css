@@ -1,23 +1,44 @@
 .video-wrapper{
     margin-top: 100px;
+    width:100vw;
+    height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    position: relative;
 }
-.video-container{
+
+
+.carousel-complete{
+    width: 80vw;
+    flex-direction: column; 
+    align-items: center;
+}
+
+ .video-container{
     height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
+
 .btn {
     position: absolute;
     background-color: transparent;
     outline: none;
     border: none;
     transform: translateY(-50%);
+    z-index: 100;
+
   }
+  .video-back-btn{
+      top: 40%;
+      left: 0;
+  }
+
+  .video-forward-btn{
+      top: 40%;
+      right:0;
+  }
+
   .back-arrow, 
   .forward-arrow{
   width: 30px;
-  height: 25px;
+  height: 50px;
   }
