@@ -21,16 +21,16 @@ function MissionCarousel(props) {
       >
         <Slider className="slider-container">
           <Slide>
-            <img src={Educate} />
+            <img className="mission-image" src={Educate} />
           </Slide>
           <Slide>
-            <img src={Food} />
+            <img className="mission-image" src={Food} />
           </Slide>
           <Slide>
-            <img src={Testing} />
+            <img className="mission-image" src={Testing} />
           </Slide>
         </Slider>
-        <DotGroup />
+        <DotGroup className="dot-group" />
       </CarouselProvider>
     </div>
   );
