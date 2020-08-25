@@ -33,6 +33,7 @@ const TestimonialCreate = () => {
   }
 
   return (
+    <Layout>
     <div className="complete-testimonial-create-screen">
       <h1>Add New Testimonial</h1>
       <form className="create-form" onSubmit={handleSubmit}>
@@ -60,6 +61,7 @@ const TestimonialCreate = () => {
         </button>
       </form>
     </div>
+    </Layout>
   );
 };
 

@@ -3,6 +3,7 @@ import { useParams, Redirect } from 'react-router-dom'
 
 import './TestimonialDetail.css'
 import { getTestimonial, updateTestimonial, deleteTestimonial } from '../../Services/Testimonials'
+import Layout from '../../Components/Shared/Layout/Layout'
 
 const TestimonialDetail = (props) => {
 
@@ -41,6 +42,7 @@ const TestimonialDetail = (props) => {
         return <Redirect to={'/our-stories'}/>
     } 
     return (
+        <Layout>
         <div className="testimonial-detail">
             <div className="testimonial">
                 <form onSubmit={handleSubmit}>
@@ -68,7 +70,7 @@ const TestimonialDetail = (props) => {
                 </form>
             </div>
         </div>
-
+        </Layout>
     )
 }
 
