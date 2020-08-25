@@ -32,6 +32,15 @@ const Home = () => {
         </div>
 
         <div className="who-we-help">
+          <h1 className="who-we-help-h1">Who We Help</h1>
+          <p className="who-we-help-p">
+            We assist LGBTQ+ youth and young adults who are 16-30 years old and
+            homeless or at risk of homelessness. We define homelessness broadly
+            to include living on the street, in a shelter, in a transitional
+            living program, or lacking permanent housing.
+          </p>
+        </div>
+        <div>
           <MissionCarousel />
         </div>
 

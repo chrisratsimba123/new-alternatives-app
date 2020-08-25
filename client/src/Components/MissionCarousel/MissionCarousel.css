@@ -1,10 +1,28 @@
-/*
-/* <Carousel /> We Exist To */
-.carousel-we-exist-to {
+.complete-mission-carousel {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  height: 550px;
-  max-height: 550px;
-  background-color: orange;
+  /* width: 100vw; */
 }
+.carousel__slider-tray-wrapper {
+  width: 1020px;
+}
+
+.carousel__slider {
+  width: 1020px;
+}
+
+.carousel__inner-slide {
+  width: 1020px;
+}
+/* .carousel__inner-slide {
+  width: 50vw;
+}
+.mission-carousel {
+  width: 50vw;
+}
+img {
+  width: 50vw;
+} */
+/* img {
+  width: 29vw;
+} */

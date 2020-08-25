@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
+import { CarouselProvider, Slider, Slide, DotGroup } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import "./MissionCarousel.css";
 import Educate from "../../Assets/exist-educate.png";
@@ -11,14 +11,15 @@ function MissionCarousel(props) {
   const testimonials = props.content;
 
   return (
-    <div className="complete-component">
+    <div className="complete-mission-carousel">
       <CarouselProvider
-        naturalSlideWidth={400}
-        naturalSlideHeight={200}
+        className="mission-carousel"
+        // naturalSlideWidth={1020}
+        // naturalSlideHeight={370}
         totalSlides={3}
+        isIntrinsicHeight={true}
       >
-        <Slider className="slicer-container">
-          return (
+        <Slider className="slider-container">
           <Slide>
             <img src={Educate} />
           </Slide>
@@ -28,8 +29,8 @@ function MissionCarousel(props) {
           <Slide>
             <img src={Testing} />
           </Slide>
-          );
         </Slider>
+        <DotGroup />
       </CarouselProvider>
     </div>
   );
