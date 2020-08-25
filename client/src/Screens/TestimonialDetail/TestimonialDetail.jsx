@@ -44,7 +44,6 @@ const TestimonialDetail = (props) => {
         return <Redirect to={"/our-stories"}/>
     } 
     return (
-      
         <Layout>
         <div className="complete-testimonial-detail-screen">
             <div className="testimonial-form">
