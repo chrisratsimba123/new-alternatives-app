@@ -5,6 +5,7 @@ import Home from './Screens/Home/Home'
 import OurStories from './Screens/OurStories/OurStories'
 import TestimonialCreate from './Screens/TestimonialCreate/TestimonialCreate'
 import TestimonialDetail from './Screens/TestimonialDetail/TestimonialDetail'
+import DeadLinks from './Screens/DeadLinks/DeadLinks'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/our-stories" component={OurStories}/>
         <Route exact path="/create-testimonial" component={TestimonialCreate}/>
         <Route exact path="/detail-testimonial/:id" component={TestimonialDetail}/>
+        <Route exact path="/coming-soon" component={DeadLinks}/>
       </Switch>
     </div>
   );

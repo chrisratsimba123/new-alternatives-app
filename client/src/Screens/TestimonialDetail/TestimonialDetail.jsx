@@ -5,6 +5,7 @@ import './TestimonialDetail.css'
 import '../../Components/Shared/Nav/Nav.css'
 import Nav from '../../Components/Shared/Nav/Nav'
 import { getTestimonial, updateTestimonial, deleteTestimonial } from '../../Services/Testimonials'
+import Layout from '../../Components/Shared/Layout/Layout'
 
 const TestimonialDetail = (props) => {
 
@@ -43,10 +44,12 @@ const TestimonialDetail = (props) => {
         return <Redirect to={"/our-stories"}/>
     } 
     return (
-        <>
-            <Nav />
-            <div className="complete-testimonial-detail-screen">
-                <form  className="testimonial-form" onSubmit={handleSubmit}>
+      
+        <Layout>
+        <div className="complete-testimonial-detail-screen">
+            <div className="testimonial-form">
+                <form onSubmit={handleSubmit}>
+
                     <textarea 
                         className="edit-content"
                         name="content"
@@ -70,8 +73,10 @@ const TestimonialDetail = (props) => {
                     </div>
                 </form>
             </div>
-        </>
-    );
-};
+
+        </div>
+        </Layout>
+    )
+}
 
 export default TestimonialDetail;
