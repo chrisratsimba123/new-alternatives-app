@@ -3,6 +3,7 @@ import "./OurStories.css";
 import TestimonialsCarousel from "../../Components/TestimonialsCarousel/TestimonialsCarousel";
 import { getTestimonials } from "../../Services/Testimonials";
 import Layout from "../../Components/Shared/Layout/Layout";
+import PhotoCarousel from "../../Components/PhotoCarousel/PhotoCarousel";
 
 const OurStories = () => {
   const [testimonials, updateTestimonials] = useState([]);
@@ -20,6 +21,7 @@ const OurStories = () => {
       <div className="complete-our-stories">
         <h1>Our Stories</h1>
         <TestimonialsCarousel content={testimonials} />
+        <PhotoCarousel />
       </div>
     </Layout>
   );
