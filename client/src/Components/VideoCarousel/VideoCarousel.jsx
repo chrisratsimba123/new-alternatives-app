@@ -25,7 +25,7 @@ const VideoCarousel = () => {
                         I am the first Slide.
                         <ReactPlayer
                             className='video'
-                            url= 'https://youtu.be/PDL725veOTQ'
+                            url= 'https://www.instagram.com/p/By2Wq89BeuT/'
                             width='100%'
                             height='100%'
                             controls = {true}
