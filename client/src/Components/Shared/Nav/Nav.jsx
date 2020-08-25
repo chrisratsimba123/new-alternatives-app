@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import 'react-dropdown/style.css'
 import './Nav.css'
 import Social from '../../Social/Social'
+import Logo from '../../../Assets/new-alternatives-title.png'
 
 
 export class Nav extends React.Component {
@@ -30,13 +31,17 @@ export class Nav extends React.Component {
   }
   render() {
     return (
-      <div>
+      <>
         <div className='nav-component'>
           <div className='title' alt='new alternatives'>
-            <h4>New<br />Alternatives<br />(title)</h4>
+            <img src={Logo} alt="New Alternatives Logo"/>
           </div>
           <div className='nav-bar'>
-            <div className='nav-menu' alt='navigation menu'>
+              <div className="top-nav-bar">
+                <button className='donate' alt='donate button'>Donate</button>
+                <Social className="social-media"/>
+              </div>
+              <div className='nav-menu' alt='navigation menu'>
                 <ul>
                 <NavLink className="nav-links" to="/">
                   <li>Home</li>
@@ -76,15 +81,13 @@ export class Nav extends React.Component {
                 </Dropdown>
                 </NavLink>
                 </ul>
-            </div>
+              </div>
             {/* <ul>
               <h5>Contact Us</h5>
             </ul> */}
-            <Social />
-            <button className='donate' alt='donate button'>Donate</button>
           </div>
         </div>
-      </div>
+      </>
     )
   }
 } 
