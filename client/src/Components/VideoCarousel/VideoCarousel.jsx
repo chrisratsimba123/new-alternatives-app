@@ -6,7 +6,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 import "./VideoCarousel.css"
 import LeftArrow from "../../Assets/left-arrow.png";
 import RightArrow from "../../Assets/right-arrow.png";
-
+import Video from "../Videos/Purple.mp4"
 
 const VideoCarousel = () => {
 
@@ -45,4 +45,11 @@ const VideoCarousel = () => {
 export default VideoCarousel
 
 /* CITED 
-//https://github.com/express-labs/pure-react-carousel */
+//https://github.com/express-labs/pure-react-carousel 
+
+
+
+
+                        <video width="750" height="500" controls >
+                            <source src={Video} type="video/mp4"/>
+                        </video>*/
