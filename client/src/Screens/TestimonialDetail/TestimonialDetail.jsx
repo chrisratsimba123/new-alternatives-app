@@ -2,17 +2,20 @@ import React, { useState, useEffect } from 'react'
 import { useParams, Redirect } from 'react-router-dom'
 
 import './TestimonialDetail.css'
+import '../../Components/Shared/Nav/Nav.css'
+import Nav from '../../Components/Shared/Nav/Nav'
 import { getTestimonial, updateTestimonial, deleteTestimonial } from '../../Services/Testimonials'
+import Layout from '../../Components/Shared/Layout/Layout'
 
 const TestimonialDetail = () => {
 
     const [testimonial, setTestimonial] =  useState({ 
-        content: '',
-        author: '',
-    })
-    let { id } = useParams()
+        content: "",
+        author: "",
+    });
 
-    const [updated, setUpdated] = useState(false)
+    const [updated, setUpdated] = useState(false);
+    let { id } = useParams();
 
     useEffect(() => {
         const grabTestimonial = async () => {
@@ -20,15 +23,15 @@ const TestimonialDetail = () => {
             setTestimonial(testimonial)
         }
         grabTestimonial()
-    }, [id])
+    }, [id]);
 
     const handleChange = (e) => {
         const { name, value } = e.target
         setTestimonial({
             ...testimonial, 
             [name]: value
-        })
-    }
+        });
+    };
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -36,26 +39,30 @@ const TestimonialDetail = () => {
         setUpdated(true) 
     }
 
+
      if (updated){
-        return <Redirect to={'/our-stories'}/>
+        return <Redirect to={"/our-stories"}/>
     } 
     return (
-        <div className="testimonial-detail">
-            <div className="testimonial">
+      
+        <Layout>
+        <div className="complete-testimonial-detail-screen">
+            <div className="testimonial-form">
                 <form onSubmit={handleSubmit}>
+
                     <textarea 
                         className="edit-content"
                         name="content"
                         value={testimonial.content}
                         onChange={handleChange}
                         required
-                    />
+                    />  
                     <input 
                         className="edit-author"
-                        value={testimonial.author}
                         name="author"
-                        required
+                        value={testimonial.author}
                         onChange={handleChange}
+                        required
                     />
                     <div className="button-container">
                         <button type='submit' className="button-save">Save</button>
@@ -66,9 +73,10 @@ const TestimonialDetail = () => {
                     </div>
                 </form>
             </div>
-        </div>
 
+        </div>
+        </Layout>
     )
 }
 
-export default TestimonialDetail
+export default TestimonialDetail;
