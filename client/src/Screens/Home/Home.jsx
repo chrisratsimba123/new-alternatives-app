@@ -16,7 +16,6 @@ import Footer from '../../Components/Shared/Footer/Footer'
 const Home = () => {
   return (
     <>
-
       <Hero src={RainbowFlag} alt='rainbow flag' />
       <div className='purple-icons-first'>
         <div className='icon'>
