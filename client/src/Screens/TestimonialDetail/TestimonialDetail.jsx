@@ -7,7 +7,7 @@ import Nav from '../../Components/Shared/Nav/Nav'
 import { getTestimonial, updateTestimonial, deleteTestimonial } from '../../Services/Testimonials'
 import Layout from '../../Components/Shared/Layout/Layout'
 
-const TestimonialDetail = (props) => {
+const TestimonialDetail = () => {
 
     const [testimonial, setTestimonial] =  useState({ 
         content: "",
@@ -35,10 +35,10 @@ const TestimonialDetail = (props) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        let { id } = props.match.params
         const updateReq = await updateTestimonial(id, testimonial)
-        setUpdated(updateReq);
-    };
+        setUpdated(true) 
+    }
+
 
      if (updated){
         return <Redirect to={"/our-stories"}/>
