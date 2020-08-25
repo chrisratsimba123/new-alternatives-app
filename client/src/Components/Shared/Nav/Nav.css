@@ -6,7 +6,6 @@
   justify-content: center;
   height: 220px;
   max-height: 220px;
-  background-color: yellow;
 }
 
 .title {
@@ -16,20 +15,27 @@
   height: 108px;
   max-height: 108px;
   margin: 93px 0px 0px 0px ;
-  background-color: rgb(184, 184, 3);
 }
 
 .nav-bar {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: flex-end;
   width: 440px;
   margin-left: 170px;
+  justify-content: center;
+}
+
+.top-nav-bar{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  /* align-items: ; */
 }
 
 .nav-menu {
   display: flex;
-  flex-direction: column-reverse;
+  /* flex-direction: column-reverse; */
   font-size: 17px;
   height: 56px;
   list-style: none;
@@ -53,7 +59,7 @@
   color: black
 }
 
-ul{
+.nav-menu ul{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -62,16 +68,19 @@ ul{
   list-style: none;
 }
 
-li {
+/* li {
   display: flex;
   flex-direction: row;
   flex-flow: nowrap;
-}
+} */
 
 .donate {
+  display: flex;
   width: 126px;
   height: 60px;
-  margin-top: 63px;
-  margin-right: 78px;
+}
+
+.social-media{
+  display: flex;
 }
 /**/

@@ -26,10 +26,11 @@ const Footer = () => {
             <div className="social-media">
                 <Social />
             </div>
+            <img className="seal" src={Seal} />
             <div className="bottom-footer">
                 <h6>© 2020 by New Alternatives | 410 West 40th Street, New York, NY 10018 | info@newalternativesnyc.org</h6>
-                <img className="seal" src={Seal} />
             </div>
+
         </div>
     </>
     )
