@@ -48,6 +48,11 @@
   
 }
 
+.nav-links{
+  text-decoration: none;
+  color: black
+}
+
 ul{
   display: flex;
   flex-direction: row;
