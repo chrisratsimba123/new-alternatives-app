@@ -8,6 +8,7 @@ import Seal from "../../../Assets/seal-of-transparency.png";
 const Footer = () => {
   return (
     <>
+
       <div className="footer-component">
         <div className="top-footer">
           <ul>
