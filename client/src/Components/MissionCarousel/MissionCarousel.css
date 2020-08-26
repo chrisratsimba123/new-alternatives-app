@@ -1,7 +1,7 @@
 .complete-mission-carousel {
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  margin-top: 100px;
 }
 .mission-carousel {
   display: flex;
