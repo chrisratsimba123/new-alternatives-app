@@ -1,6 +1,5 @@
 import React from 'react';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
-/* import ReactPlayer from 'react-player' */
 
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import "./VideoCarousel.css"
@@ -20,7 +19,6 @@ const VideoCarousel = () => {
                 className="carousel-complete"
                 naturalSlideWidth={400}
                 naturalSlideHeight={200}
-                /* isintrinsicHeight={true} */ 
                 totalSlides={5}
                 visibleSlides={3}
             >
@@ -28,29 +26,43 @@ const VideoCarousel = () => {
                     <img className="back-arrow" src={LeftArrow} />
                 </ButtonBack>          
                 <Slider className="video-container">
+
                     <Slide>
-                        <video width="100%" height="100%" controls >
-                            <source src={Blue} type="video/mp4"/>
-                        </video>
+                        
+                            <video className="video" width="100%" height="100%" controls>
+                                <source src={Blue} type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
+                        
                     </Slide>
+        
                     <Slide>
-                        <video width="100%" height="100%" controls >
-                            <source src={Green} type="video/mp4"/>
-                        </video>
+                    
+                            <video className="video" width="100%" height="100%" controls>
+                                <source src={Green} type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
+                        
                     </Slide>
+
                     <Slide>
-                        <video width="100%" height="100%" controls >
+                        <video width="100%" height="100%" controls>
                             <source src={Red} type="video/mp4"/>
+                            Your browser does not support the video tag.
                         </video>
                     </Slide>
+
                     <Slide>
-                        <video width="100%" height="100%" controls >
+                        <video width="100%" height="100%" controls>
                             <source src={Yellow} type="video/mp4"/>
+                            Your browser does not support the video tag.
                         </video>
                     </Slide>
+
                     <Slide>
-                        <video width="100%" height="100%" controls >
+                        <video width="100%" height="100%" controls>
                             <source src={Purple} type="video/mp4"/>
+                            Your browser does not support the video tag.
                         </video>
                     </Slide>
                 </Slider>
