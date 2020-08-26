@@ -75,9 +75,18 @@
 } */
 
 .donate {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
   display: flex;
   width: 126px;
   height: 60px;
+  justify-content: center;
+  background-color: #92bb65;
+  color: white;
+  border-radius: 3px;
+  box-shadow: none;
+  padding-top: 16px;
 }
 
 .social-media{
