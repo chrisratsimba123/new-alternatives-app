@@ -3,7 +3,6 @@ import { useParams, Redirect } from 'react-router-dom'
 
 import './TestimonialDetail.css'
 import '../../Components/Shared/Nav/Nav.css'
-import Nav from '../../Components/Shared/Nav/Nav'
 import { getTestimonial, updateTestimonial, deleteTestimonial } from '../../Services/Testimonials'
 import Layout from '../../Components/Shared/Layout/Layout'
 
@@ -46,6 +45,7 @@ const TestimonialDetail = () => {
     return (
         <Layout>
         <div className="complete-testimonial-detail-screen">
+            <h1>Edit Your Testimonial</h1>
             <div className="testimonial-form">
                 <form onSubmit={handleSubmit}>
 
