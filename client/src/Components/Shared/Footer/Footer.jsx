@@ -15,18 +15,16 @@ const Footer = () => {
             <NavLink className="links" to="/coming-soon">
               About Us
             </NavLink>
-            <NavLink className="links" to="/our-stories">
+            <NavLink className="live-link" to="/our-stories">
               Our Stories
             </NavLink>
-            <NavLink className="links" to="/coming-soon">
+            <NavLink className="live-link" to="/coming-soon">
               Get Help
             </NavLink>
             <NavLink className="links" to="/coming-soon">
               Get Involved
             </NavLink>
-            <NavLink className="links" to="/">
-              Financial Report
-            </NavLink>
+            <a href='https://c8f5851f-9831-4bab-aa48-25c2b4f1b185.filesusr.com/ugd/9bb66f_f663ee9dc031481db99d551d043c6ae2.pdf' className="live-link" target="_blank">Financial Report</a>
             <NavLink className="links" to="/">
               Contact Us
             </NavLink>
