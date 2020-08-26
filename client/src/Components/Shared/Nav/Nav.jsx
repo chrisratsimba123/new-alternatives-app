@@ -1,35 +1,41 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
-import 'react-dropdown/style.css'
+// import 'react-dropdown/style.css'
 import './Nav.css'
 import Social from '../../Social/Social'
 import Logo from '../../../Assets/new-alternatives-title.png'
 
 
-export class Nav extends React.Component {
-  constructor(props) {
-    super(props)
+const Nav = (props) => {
+  const [dropdownOpen, setDropdownOpen] = useState(false)
 
-    this.toggle = this.toggle.bind(this)
-    this.onMouseEnter = this.onMouseEnter.bind(this)
-    this.onMouseLeave = this.onMouseLeave.bind(this)
-    this.state = {
-      dropdownOpen: false
-    }
-  }
-  toggle() {
-    this.setState(prevState => ({
-      dropdownOpen: !prevState.dropdownOpen
-    }))
-  }
-  onMouseEnter() {
-    this.setState({dropdownOpen: true})
-  }
-  onMouseLeave() {
-    this.setState({dropdownOpen: false})
-  }
-  render() {
+  const toggle = () => setDropdownOpen(prevState => !prevState)
+
+
+// export class Nav extends React.Component {
+//   constructor(props) {
+//     super(props)
+
+//     this.toggle = this.toggle.bind(this)
+//     this.onMouseEnter = this.onMouseEnter.bind(this)
+//     this.onMouseLeave = this.onMouseLeave.bind(this)
+//     this.state = {
+//       dropdownOpen: false
+//     }
+//   }
+//   toggle() {
+//     this.setState(prevState => ({
+//       dropdownOpen: !prevState.dropdownOpen
+//     }))
+//   }
+//   onMouseEnter() {
+//     this.setState({dropdownOpen: true})
+//   }
+//   onMouseLeave() {
+//     this.setState({dropdownOpen: false})
+//   }
+//   render() {
     return (
       <>
         <div className='nav-component'>
@@ -61,33 +67,33 @@ export class Nav extends React.Component {
                 </NavLink>
 
                 <NavLink className="nav-links" to="/coming-soon">
-                <Dropdown className='get-help' onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                  <DropdownToggle caret>
+                {/* <Dropdown isOpen={dropdownOpen} toggle={toggle}>
+                  <DropdownToggle caret> */}
                   <li>Get Help</li>
-                  </DropdownToggle>
-                  <DropdownMenu>
-                    <DropdownItem>Registration + Schedule</DropdownItem>
+                    {/* </DropdownToggle> */}
+                  {/* <DropdownMenu className="get-help-menu">
+                    <DropdownItem className="dropdown-item">Registration + Schedule</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>Support Programs</DropdownItem>
+                    <DropdownItem className="dropdown-item">Support Programs</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>Client Resources</DropdownItem>
+                    <DropdownItem className="dropdown-item">Client Resources</DropdownItem>
                   </DropdownMenu>
-                </Dropdown>
+                </Dropdown> */}
                 </NavLink>
 
                 <NavLink className="nav-links" to="/coming-soon">
-                <Dropdown className='get-help' onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                  <DropdownToggle caret>
+                {/* <Dropdown className='get-involved' onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+                  <DropdownToggle caret> */}
                   <li>Get Involved</li>
-                  </DropdownToggle>
-                  <DropdownMenu>
-                    <DropdownItem>Volunteer</DropdownItem>
+                  {/* </DropdownToggle>
+                  <DropdownMenu className="get-involved-menu">
+                    <DropdownItem className="dropdown-item">Volunteer</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>Fundraise</DropdownItem>
+                    <DropdownItem className="dropdown-item">Fundraise</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>Upcoming Events</DropdownItem>
+                    <DropdownItem className="dropdown-item">Upcoming Events</DropdownItem>
                   </DropdownMenu>
-                </Dropdown>
+                </Dropdown> */}
                 </NavLink>
                 </ul>
               </div>
@@ -99,7 +105,7 @@ export class Nav extends React.Component {
       </>
     )
   }
-} 
+
 
 export default Nav
 
