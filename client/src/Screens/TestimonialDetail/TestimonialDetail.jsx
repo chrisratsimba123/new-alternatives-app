@@ -7,7 +7,9 @@ import { getTestimonial, updateTestimonial, deleteTestimonial } from '../../Serv
 import Layout from '../../Components/Shared/Layout/Layout'
 
 const TestimonialDetail = () => {
-
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, [])
     const [testimonial, setTestimonial] =  useState({ 
         content: "",
         author: "",
@@ -45,7 +47,7 @@ const TestimonialDetail = () => {
     return (
         <Layout>
         <div className="complete-testimonial-detail-screen">
-            <h1>Edit Your Testimonial</h1>
+            <h1 className="edit-header">Edit Your Testimonial</h1>
             <div className="testimonial-form">
                 <form onSubmit={handleSubmit}>
 
@@ -55,7 +57,7 @@ const TestimonialDetail = () => {
                         value={testimonial.content}
                         onChange={handleChange}
                         required
-                    />  
+                    />
                     <input 
                         className="edit-author"
                         name="author"
