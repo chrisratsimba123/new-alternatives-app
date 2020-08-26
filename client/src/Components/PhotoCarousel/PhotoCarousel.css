@@ -1,0 +1,37 @@
+.complete-photo-carousel {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.photo-carousel {
+  width: 82vw;
+}
+
+.photo-image {
+  width: 26vw;
+}
+
+.btn {
+  position: absolute;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  transform: translateY(-50%);
+}
+
+.back-btn-photo {
+  top: 50%;
+  left: -5%;
+}
+
+.forward-btn-photo {
+  top: 50%;
+  right: -5%;
+}
+
+.back-icon,
+.forward-icon {
+  height: 30px;
+  width: 17px;
+}

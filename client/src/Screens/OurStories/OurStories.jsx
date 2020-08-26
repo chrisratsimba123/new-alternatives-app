@@ -19,7 +19,6 @@ const OurStories = () => {
   return (
     <Layout>
       <div className="complete-our-stories">
-        <h1>Our Stories</h1>
         <TestimonialsCarousel content={testimonials} />
         <PhotoCarousel />
       </div>
