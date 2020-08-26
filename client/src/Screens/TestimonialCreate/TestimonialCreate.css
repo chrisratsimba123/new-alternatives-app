@@ -1,5 +1,15 @@
 .complete-testimonial-create-screen {
   font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
+}
+
+.testimonial-title {
+  margin-bottom: -10px;
+}
+
+.testimonial-subtitle {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .create-form {
@@ -7,7 +17,6 @@
   padding-top: 50px;
   display: flex;
   flex-direction: column;
-  height: 100%;
   width: 60%;
   margin: 0 auto;
   justify-content: space-evenly;
@@ -38,18 +47,14 @@ select:focus {
 
 input,
 textarea {
-  font-size: 48px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-style: hidden;
+  border: none;
   width: 80%;
 }
 
 textarea {
   font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
   overflow-wrap: break-word !important;
   font-family: "Open Sans", sans-serif;
   resize: none;
@@ -58,7 +63,6 @@ textarea {
 .input-author {
   height: 60px;
   font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -78,9 +82,13 @@ textarea {
 
 /* =====  Thank you ======= */
 .submit-thankyou-container {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .submit-thankyou {
   font-size: 64px;
+}
+
+.submit-thankyou-text {
+  text-align: center;
 }
