@@ -6,7 +6,7 @@ const Subscribe = () => {
 
     return(
     <>
-    <form>
+    <form className="email-form">
         <input 
             className="input-email"
             placeholder="Email"

@@ -13,7 +13,10 @@
 }
 
 .top-footer {
-  padding: 5%;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+  padding-top: 10px;
 }
 
 .links {
@@ -30,6 +33,7 @@
   margin-top: 2%;
   display: flex;
   justify-content: center;
+  color: white
 }
 
 .bottom-footer {
