@@ -34,12 +34,17 @@ export class Nav extends React.Component {
       <>
         <div className='nav-component'>
           <div className='title' alt='new alternatives'>
-            <img src={Logo} alt="New Alternatives Logo"/>
+            <NavLink className="nav-links" to="/">
+              <img src={Logo} alt="New Alternatives Logo"/>
+            </NavLink>
           </div>
           <div className='nav-bar'>
               <div className="top-nav-bar">
                 <button className='donate' alt='donate button'>Donate</button>
                 <Social className="social-media"/>
+                <NavLink className="nav-links" to="/coming-soon">
+                  <h6 className="contact-us">Contact Us</h6>
+                </NavLink>
               </div>
               <div className='nav-menu' alt='navigation menu'>
                 <ul>
