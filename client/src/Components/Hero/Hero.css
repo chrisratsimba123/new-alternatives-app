@@ -7,9 +7,11 @@
   height: 384px;
   max-height: 384px;
   /*background-image: url('');*/
-  background-color: blue;
 }
 
+.hero-image{
+  z-index: -1;
+}
 .shadow-box {
   display: flex;
   flex-direction: column;
