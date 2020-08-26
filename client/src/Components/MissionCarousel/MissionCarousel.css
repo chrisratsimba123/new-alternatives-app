@@ -1,4 +1,5 @@
 .complete-mission-carousel {
+  overflow: hidden;
   display: flex;
   justify-content: center;
   margin-top: 100px;
