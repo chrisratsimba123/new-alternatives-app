@@ -10,32 +10,11 @@ import Hero from '../../Components/Hero/Hero'
 import RainbowFlag from '../../Assets/hero_rainbow-flag.png'
 import Layout from '../../Components/Shared/Layout/Layout'
 import MissionCarousel from '../../Components/MissionCarousel/MissionCarousel'
+
 const Home = () => {
   return (
     <>
       <Layout>
-<<<<<<< HEAD
-      <Hero src={RainbowFlag} alt='rainbow flag' />
-
-      <div className='purple-icons-first'>
-
-        <div className='icon'>
-          <div className='icon-image'>
-            <img src={IconDollarSign} alt='Icon: Dollar sign' />
-          </div>
-          <div className='icon-text'>
-            <h1>$500K</h1>
-            <p>raised in one year</p>
-          </div>
-        </div>
-
-        <div className='icon'>
-          <div className='icon-image'>
-            <img src={IconFlag} alt='Icon: Flag' />
-          </div>
-          <div className='icon-text'>
-            <h1>Text Missing</h1>
-=======
         <Hero className='hero' src={RainbowFlag} alt='rainbow flag' />
         <div className='purple-icons-first'>
           <div className='icon'>
@@ -46,7 +25,6 @@ const Home = () => {
               <h1>$500K</h1>
               <p>raised in one year</p>
             </div>
->>>>>>> bd28c0ad40f8c54fb09523cb8172dd46ee9dbce3
           </div>
           <div className='icon'>
             <div className='icon-image'>
