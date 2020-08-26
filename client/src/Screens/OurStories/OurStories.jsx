@@ -2,9 +2,12 @@ import React, { useState, useEffect } from "react";
 import "./OurStories.css";
 import TestimonialsCarousel from "../../Components/TestimonialsCarousel/TestimonialsCarousel";
 import { getTestimonials } from "../../Services/Testimonials";
+
+import VideoCarousel from "../../Components/VideoCarousel/VideoCarousel";
 import Layout from "../../Components/Shared/Layout/Layout";
 import PhotoCarousel from "../../Components/PhotoCarousel/PhotoCarousel";
 import "./OurStories.css";
+
 
 const OurStories = () => {
   const [testimonials, updateTestimonials] = useState([]);
@@ -18,7 +21,7 @@ const OurStories = () => {
   }, []);
 
   return (
-    <Layout>
+  <Layout>
       <div className="complete-our-stories">
         <div className="our-stories-hero-container">
           <div className="our-stories-shadow-box">
@@ -31,7 +34,12 @@ const OurStories = () => {
           </div>
         </div>
         <TestimonialsCarousel content={testimonials} />
+
+        <VideoCarousel />
+      
+
         <PhotoCarousel />
+
       </div>
     </Layout>
   );
