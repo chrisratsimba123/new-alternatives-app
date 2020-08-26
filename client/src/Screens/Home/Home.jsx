@@ -61,6 +61,7 @@ const Home = () => {
             living program, or lacking permanent housing.
           </p>
         </div>
+        <MissionCarousel />
         <div className="get-involved">
           <h1>Get Involved</h1>
           <div className="get-involved-icons">
@@ -81,7 +82,6 @@ const Home = () => {
             <h2>Donate</h2>
           </div>
         </div>
-        <MissionCarousel />
       </Layout>
     </>
 

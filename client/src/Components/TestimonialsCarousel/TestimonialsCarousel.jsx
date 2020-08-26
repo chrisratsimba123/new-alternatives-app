@@ -26,7 +26,7 @@ function Carousel(props) {
         totalSlides={testimonials.length}
         infinite={true}
       >
-        <ButtonBack className="btn back-btn">
+        <ButtonBack className="testimonial-btn testimonial-back-btn">
           <img className="back-icon" src={LeftArrow} alt="left arrow" />
         </ButtonBack>
         <Slider className="slicer-container">
@@ -46,7 +46,7 @@ function Carousel(props) {
                     </h5>
                   </div>
                 </div>
-                <div className="button-container">
+                <div className="testimonial-button-container">
                   <Link className="add-testimonial" to={`/create-testimonial`}>
                     add testimonial
                   </Link>
@@ -70,7 +70,7 @@ function Carousel(props) {
             );
           })}
         </Slider>
-        <ButtonNext className="btn forward-btn">
+        <ButtonNext className="testimonial-btn testimonial-forward-btn">
           <img className="forward-icon" src={RightArrow} alt="right arrow" />
         </ButtonNext>
         {/* <DotGroup className="dot" /> */}
