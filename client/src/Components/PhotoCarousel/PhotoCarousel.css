@@ -1,0 +1,46 @@
+.complete-photo-carousel {
+  display: flex;
+  justify-content: center;
+  margin: 200px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.photo-carousel {
+  position: relative;
+  width: 82vw;
+}
+
+.photo-title {
+  position: absolute;
+  top: -80px;
+  left: 0.5vw;
+  color: #92bb65;
+}
+
+.photo-image {
+  width: 26vw;
+}
+
+.btn {
+  position: absolute;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  transform: translateY(-50%);
+}
+
+.back-btn-photo {
+  top: 50%;
+  left: -5%;
+}
+
+.forward-btn-photo {
+  top: 50%;
+  right: -5%;
+}
+
+.back-icon,
+.forward-icon {
+  height: 30px;
+  width: 17px;
+}
