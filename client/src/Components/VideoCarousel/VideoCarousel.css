@@ -1,7 +1,7 @@
 .video-wrapper{
     margin-top: 100px;
     width: 100vw;
-    height: 500px;
+    height: 200px;
     display: flex;
     justify-content: center; 
     position: relative;
@@ -16,30 +16,41 @@
 
  .video-container{
     /* background-color: black; */
-    padding: 20px;
-    padding-left: 0;
+    padding: 30px;
+    padding-right: 5px;
+    height: 150%;
 }
 
-.video{
-    overflow: hidden;
+.video, *:focus {
+    /* overflow: hidden; */
+    outline: 0;
 } 
+
 .c-video{
     margin: 20px;
     /* background-color: black; */
     height: 350%;
 }
-.space{
-    width: 20px;
+
+.carousel__inner-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.controls{
+
+/* *:focus {
+    outline: 0;
+}
+ */
+/* .controls{
     display: flex;
     position: absolute;
     bottom: 0;
     width: 100%;
     flex-wrap: wrap;
     background: rgba(0,0,0, 0.7)
-	
-}
+} */
 
 .bar{
     display: flex;
@@ -59,13 +70,13 @@
   }
 
   .video-back-btn{
-      top: 20%;
-      left: -50px;
+      top: 45%;
+      left: 0px;
   }
 
   .video-forward-btn{
-      top: 20%;
-      right: -50px;
+      top: 45%;
+      right: -20px;
   }
 
   .back-arrow, 
