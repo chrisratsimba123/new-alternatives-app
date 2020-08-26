@@ -67,7 +67,9 @@ export class Nav extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu>
                     <DropdownItem>Registration + Schedule</DropdownItem>
+                    <DropdownItem divider />
                     <DropdownItem>Support Programs</DropdownItem>
+                    <DropdownItem divider />
                     <DropdownItem>Client Resources</DropdownItem>
                   </DropdownMenu>
                 </Dropdown>
@@ -80,7 +82,9 @@ export class Nav extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu>
                     <DropdownItem>Volunteer</DropdownItem>
+                    <DropdownItem divider />
                     <DropdownItem>Fundraise</DropdownItem>
+                    <DropdownItem divider />
                     <DropdownItem>Upcoming Events</DropdownItem>
                   </DropdownMenu>
                 </Dropdown>
