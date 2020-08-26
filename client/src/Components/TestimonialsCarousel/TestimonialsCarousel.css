@@ -8,17 +8,17 @@
 }
 .quote {
   position: absolute;
-  width: 30px;
-  height: 25px;
+  width: 45px;
+  height: 35px;
 }
 
 .right-quote {
-  bottom: 50px;
+  bottom: 60px;
   right: 0px;
 }
 
 .left-quote {
-  top: 25px;
+  top: 0;
   left: 0;
 }
 
@@ -50,12 +50,16 @@
 .testimonial {
   font-size: 14px;
   line-height: 1.2 !important;
+
   width: 295px;
   overflow-wrap: break-word;
 }
 
 .testimonial-author {
   margin: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 800;
+  color: #92bb65;
 }
 
 .carousel__inner-slide {
@@ -75,12 +79,12 @@
 
 .back-btn {
   top: 40%;
-  left: -75px;
+  left: -8vw;
 }
 
 .forward-btn {
   top: 40%;
-  right: -75px;
+  right: -8vw;
 }
 
 .back-icon,
@@ -98,7 +102,7 @@
   background-color: #92bb65;
   color: #ffffff;
   padding: 3px 15px;
-  margin: 10px 5px 0;
+  margin: 10x 5px 0;
 }
 
 .add-testimonial:hover,

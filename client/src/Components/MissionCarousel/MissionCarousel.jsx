@@ -14,8 +14,7 @@ function MissionCarousel(props) {
     <div className="complete-mission-carousel">
       <CarouselProvider
         className="mission-carousel"
-        // naturalSlideWidth={1020}
-        // naturalSlideHeight={370}
+        
         totalSlides={3}
         isIntrinsicHeight={true}
       >

@@ -1,0 +1,32 @@
+.our-stories-hero-container {
+  position: relative;
+  height: 384px;
+  background-image: url("../../Assets/straight-people-at-lgbtq-pride-parade-14e2143a-b2dd-4662-8153-a7be98ed9484.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.our-stories-shadow-box {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 250px;
+  width: 275px;
+  color: #ffffff;
+  margin: 60px 0 0 17vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  padding: 0 60px;
+}
+
+.our-stories-shadow-box p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.our-stories-shadow-box h2 {
+  margin-bottom: 5px;
+}
+

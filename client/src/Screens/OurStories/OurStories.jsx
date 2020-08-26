@@ -5,6 +5,8 @@ import { getTestimonials } from "../../Services/Testimonials";
 
 import VideoCarousel from "../../Components/VideoCarousel/VideoCarousel";
 import Layout from "../../Components/Shared/Layout/Layout";
+import PhotoCarousel from "../../Components/PhotoCarousel/PhotoCarousel";
+import "./OurStories.css";
 
 
 const OurStories = () => {
@@ -21,10 +23,23 @@ const OurStories = () => {
   return (
   <Layout>
       <div className="complete-our-stories">
-        <h1>Our Stories</h1>
+        <div className="our-stories-hero-container">
+          <div className="our-stories-shadow-box">
+            <h2>Our Stories</h2>
+            <p>
+              We all have a story... We all deserve the right to a happy ever
+              after. New Alternatives is here to make sure the LGBTQ+ youth have
+              the tools they need to create their own success stories.
+            </p>
+          </div>
+        </div>
         <TestimonialsCarousel content={testimonials} />
+
         <VideoCarousel />
       
+
+        <PhotoCarousel />
+
       </div>
     </Layout>
   );
