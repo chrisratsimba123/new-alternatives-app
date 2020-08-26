@@ -1,4 +1,9 @@
+.complete-testimonial-create-screen {
+  font-family: "Open Sans", sans-serif;
+}
+
 .create-form {
+  position: relative;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
@@ -7,6 +12,22 @@
   margin: 0 auto;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.quote-create {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+}
+
+.right-quote-create {
+  bottom: 190px;
+  right: 0px;
+}
+
+.left-quote-create {
+  top: 25px;
+  left: 0;
 }
 
 input:focus,
@@ -23,29 +44,28 @@ textarea {
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: hidden;
-  width: 90%;
+  width: 80%;
 }
 
 textarea {
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-wrap: break-word !important;
+  font-family: "Open Sans", sans-serif;
+  resize: none;
 }
 
 .input-author {
   height: 60px;
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.input-image-link {
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .submit-button {
   width: 100%;
   font-size: 22px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: 40px;
   margin-top: 40px;
   margin-bottom: 100px;
@@ -54,4 +74,13 @@ textarea {
   border: none;
   box-shadow: 2px 2px 10px 2px #cecece;
   cursor: pointer;
+}
+
+/* =====  Thank you ======= */
+.submit-thankyou-container {
+  margin-top: 100px;
+}
+
+.submit-thankyou {
+  font-size: 64px;
 }

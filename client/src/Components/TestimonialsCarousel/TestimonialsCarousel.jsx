@@ -14,8 +14,6 @@ import RightQuote from "../../Assets/right-quote.png";
 import LeftArrow from "../../Assets/left-arrow.png";
 import RightArrow from "../../Assets/right-arrow.png";
 
-// testing merge
-
 function Carousel(props) {
   const testimonials = props.content;
 
@@ -25,6 +23,7 @@ function Carousel(props) {
         naturalSlideWidth={400}
         naturalSlideHeight={200}
         totalSlides={testimonials.length}
+        infinite={true}
       >
         <ButtonBack className="btn back-btn">
           <img className="back-icon" src={LeftArrow} alt="left arrow" />
