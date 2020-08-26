@@ -14,6 +14,7 @@ function MissionCarousel(props) {
     <div className="complete-mission-carousel">
       <CarouselProvider
         className="mission-carousel"
+        
         totalSlides={3}
         isIntrinsicHeight={true}
         interval={5000}

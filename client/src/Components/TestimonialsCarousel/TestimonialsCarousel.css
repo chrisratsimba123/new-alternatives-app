@@ -27,6 +27,19 @@
   width: 450px;
 }
 
+/* .carousel__dot {
+  height: 20px;
+  width: 20px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: blue;
+}
+
+.carousel__dot--selected {
+  background-color: yellow;
+} */
+
 .testimonial-container {
   height: 200px;
   display: flex;
