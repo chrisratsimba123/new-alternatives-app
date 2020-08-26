@@ -13,6 +13,9 @@ import RightArrow from "../../Assets/right-arrow.png";
 import GirlClothing from "../../Assets/ourstories-screen_girl-clothing-store.png";
 import ThreeGuys from "../../Assets/ourstories-screen_three-guys_gay-pride-parade.png";
 import YogaPose from "../../Assets/ourstories-screen_yoga-pose-in-chair.png";
+import GuyGirl from "../../Assets/ourstories-screen-guy-girl-care-packages.png";
+import GirlsMeals from "../../Assets/ourstories-screen-girls-meals-kitchen.png";
+import TwoPeople from "../../Assets/ourstories-screen-two-people-pier.png";
 
 function PhotoCarousel() {
   return (
@@ -20,10 +23,12 @@ function PhotoCarousel() {
       <div className="complete-photo-carousel">
         <CarouselProvider
           className="photo-carousel"
-          totalSlides={5}
+          totalSlides={6}
           visibleSlides={3}
           isIntrinsicHeight={true}
+          infinite={true}
         >
+          <h1 className="photo-title">Past Events</h1>
           <ButtonBack className="btn back-btn-photo">
             <img className="back-icon" src={LeftArrow} alt="left arrow" />
           </ButtonBack>
@@ -38,10 +43,13 @@ function PhotoCarousel() {
               <img className="photo-image" src={GirlClothing} />
             </Slide>
             <Slide>
-              <img className="photo-image" src={GirlClothing} />
+              <img className="photo-image" src={GuyGirl} />
             </Slide>
             <Slide>
-              <img className="photo-image" src={GirlClothing} />
+              <img className="photo-image" src={GirlsMeals} />
+            </Slide>
+            <Slide>
+              <img className="photo-image" src={TwoPeople} />
             </Slide>
           </Slider>
 
