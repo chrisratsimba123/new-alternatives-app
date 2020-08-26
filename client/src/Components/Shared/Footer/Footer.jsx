@@ -4,6 +4,9 @@ import "./Footer.css";
 import Subscribe from "../../Subscribe/Subscribe";
 import Social from "../../Social/Social";
 import Seal from "../../../Assets/seal-of-transparency.png";
+import Facebook from '../../../Assets/facebook-white.png'
+import Twitter from '../../../Assets/twitter-white.png'
+import Instagram from '../../../Assets/instagram-white.png'
 
 const Footer = () => {
   return (
@@ -37,9 +40,23 @@ const Footer = () => {
           <Subscribe />
         </div>
         <div className="social-media">
-          <Social />
+          <div className="social-icon" alt='Facebook Logo'>
+            <a href="https://www.facebook.com/NewAlternatives/">
+              <img src={Facebook} />
+            </a>
+          </div>
+          <div className='social-icon' >
+            <a href="https://twitter.com/NewAlternatives">
+              <img src={Twitter} alt='Twitter Logo'/>
+            </a>
+          </div>
+          <div className='social-icon' >
+            <a href="https://www.instagram.com/new_alternatives_nyc/">
+              <img src={Instagram} alt='Instagram Logo'/>
+            </a>
+          </div>
         </div>
-        
+
         <div className="bottom-footer">
           <h6>
             © 2020 by New Alternatives | 410 West 40th Street, New York, NY
