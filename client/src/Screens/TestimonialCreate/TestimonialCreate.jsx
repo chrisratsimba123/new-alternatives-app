@@ -55,7 +55,7 @@ const TestimonialCreate = () => {
         <p className="testimonial-subtitle">
           Please enter your new testimonial below.
           <br />
-          (300 character limit)
+          (350 character limit)
         </p>
         <form className="create-form" onSubmit={handleSubmit}>
           <img
@@ -67,7 +67,7 @@ const TestimonialCreate = () => {
           <textarea
             className="textarea-content"
             rows={6}
-            maxLength="300"
+            maxLength="350"
             placeholder="Testimonial:"
             value={testimonial.content}
             name="content"
