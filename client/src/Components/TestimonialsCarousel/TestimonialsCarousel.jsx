@@ -26,7 +26,6 @@ function Carousel(props) {
         totalSlides={testimonials.length}
         infinite={true}
       >
-        <h1 className="video-header">#WhatAboutUs</h1>
         <ButtonBack className="btn back-btn">
           <img className="back-icon" src={LeftArrow} alt="left arrow" />
         </ButtonBack>

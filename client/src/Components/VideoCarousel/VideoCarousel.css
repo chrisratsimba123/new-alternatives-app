@@ -1,13 +1,19 @@
-.video-wrapper{
+.video-wrapper{/*  granddaddy */
     margin-top: 100px;
     width: 100vw;
     height: 200px;
     display: flex;
     justify-content: center; 
-    position: relative;
+    /* background-color: green; */
+    /* position: relative; */
 }
-
-
+.video-header {
+    position: absolute;
+    top: -40px;
+    left: 4vw;
+    color: #92bb65;
+  }
+  
 .carousel-complete{
     width: 90vw;
     flex-direction: column; 
@@ -15,29 +21,28 @@
 }
 
  .video-container{
-    /* background-color: black; */
+    /* background-color: yellow; */
     padding: 30px;
     padding-right: 5px;
-    height: 150%;
+    height: 70%;
 }
 
-.video, *:focus {
+.video {
     /* overflow: hidden; */
     outline: 0;
+    /* background-color: red; */
+    height: 100%;
 } 
+
+.carousel__slide-focus-ring{
+    outline: 0;
+}
 
 .c-video{
     margin: 20px;
-    /* background-color: black; */
-    height: 350%;
+    height: 100%;
 }
 
-.carousel__inner-slide {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 /* *:focus {
     outline: 0;
@@ -61,7 +66,7 @@
     background: rgba(0,0,0,0.7);
 }
 .btn {
-    position: absolute;
+    /* position: absolute; */
     background-color: transparent;
     outline: none;
     border: none;
@@ -70,12 +75,12 @@
   }
 
   .video-back-btn{
-      top: 45%;
+      top: 57%;
       left: 0px;
   }
 
   .video-forward-btn{
-      top: 45%;
+      top: 57%;
       right: -20px;
   }
 
@@ -83,4 +88,8 @@
   .forward-arrow{
     height: 30px;
     width: 17px;
+  }
+
+  .carousel__slide--hidden{
+      /* outline: 0; */
   }
