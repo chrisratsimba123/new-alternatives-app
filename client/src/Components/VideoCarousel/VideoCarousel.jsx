@@ -5,14 +5,16 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 import "./VideoCarousel.css"
 import LeftArrow from "../../Assets/left-arrow.png";
 import RightArrow from "../../Assets/right-arrow.png";
-import Purple from "../../Assets/Videos/Purple.mp4"
-import Blue from "../../Assets/Videos/Blue.mp4"
-import Green from "../../Assets/Videos/Green.mp4"
-import Red from "../../Assets/Videos/Red.mp4"
-import Yellow from "../../Assets/Videos/Yellow.mp4"
+
+import Purple from "../../Assets/Videos/Purple.mp4";
+import Blue from "../../Assets/Videos/Blue.mp4";
+import Green from "../../Assets/Videos/Green.mp4";
+import Red from "../../Assets/Videos/Red.mp4";
+import Yellow from "../../Assets/Videos/Yellow.mp4";
 
 const VideoCarousel = () => {
-    
+ 
+
     return(    
         <div className="video-wrapper">                                             
             <CarouselProvider
