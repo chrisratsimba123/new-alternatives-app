@@ -1,6 +1,6 @@
 .complete-testimonial-create-screen {
   font-family: "Open Sans", sans-serif;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .testimonial-title {
@@ -9,6 +9,7 @@
 
 .testimonial-subtitle {
   text-align: center;
+  font-size: 14px;
   margin-bottom: 40px;
 }
 
@@ -48,7 +49,7 @@ select:focus {
 input,
 textarea {
   font-family: Georgia, "Times New Roman", Times, serif;
-  border: none;
+  /* border: none; */
   width: 80%;
 }
 
@@ -61,13 +62,14 @@ textarea {
 }
 
 .input-author {
-  height: 60px;
+  height: 30px;
+  margin-top: 30px;
   font-size: 24px;
   font-family: "Open Sans", sans-serif;
 }
 
 .submit-button {
-  width: 100%;
+  width: 82%;
   font-size: 22px;
   font-family: "Open Sans", sans-serif;
   height: 40px;
