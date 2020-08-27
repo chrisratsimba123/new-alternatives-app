@@ -9,8 +9,8 @@
 .hero-image{
   z-index: -1;
 }
-.shadow-box {
 
+.shadow-box {
     text-align: left;
     display: flex;
     flex-direction: column;

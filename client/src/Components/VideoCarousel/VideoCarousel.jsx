@@ -24,7 +24,7 @@ const VideoCarousel = () => {
             >
                 <h3 className="video-header">#WhatAboutUs</h3>
                 <ButtonBack className="video-back-btn btn">
-                    <img className="back-arrow" src={LeftArrow} />
+                    <img className="back-arrow" src={LeftArrow} alt="back arrow"/>
                 </ButtonBack>          
                 <Slider className="video-container">
 
