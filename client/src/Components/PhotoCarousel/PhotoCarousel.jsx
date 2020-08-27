@@ -101,6 +101,7 @@ function PhotoCarousel() {
                 <img className="photo-image" src={GirlClothing} />
                 {isVisible3 && (
                   <div className="absol">
+
                     <a
                       href="https://www.instagram.com/p/CCoWebODbnv/?utm_source=ig_web_copy_link"
                       target="blank"
@@ -113,6 +114,7 @@ function PhotoCarousel() {
                         #donations #lgbtq🌈
                       </p>
                     </a>
+
                   </div>
                 )}
               </div>

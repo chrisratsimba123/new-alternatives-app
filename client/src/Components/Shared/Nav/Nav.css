@@ -59,6 +59,10 @@
   color: black
 }
 
+.nav-links:hover {
+  color: rgb(148,185,87);
+}
+
 .nav-menu ul{
   display: flex;
   flex-direction: row;
