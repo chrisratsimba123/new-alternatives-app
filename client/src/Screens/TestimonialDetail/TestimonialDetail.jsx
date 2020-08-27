@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react'
-import { useParams, Redirect } from 'react-router-dom'
+import React, { useState, useEffect } from "react"
+import { useParams, Redirect } from "react-router-dom"
 
-import './TestimonialDetail.css'
-import '../../Components/Shared/Nav/Nav.css'
-import { getTestimonial, updateTestimonial, deleteTestimonial } from '../../Services/Testimonials'
-import Layout from '../../Components/Shared/Layout/Layout'
+import "./TestimonialDetail.css"
+import "../../Components/Shared/Nav/Nav.css"
+import { getTestimonial, updateTestimonial, deleteTestimonial } from "../../Services/Testimonials"
+import Layout from "../../Components/Shared/Layout/Layout"
 
 const TestimonialDetail = () => {
     useEffect(() => {
@@ -66,7 +66,7 @@ const TestimonialDetail = () => {
                         required
                     />
                     <div className="button-container">
-                        <button type='submit' className="button-save">Save</button>
+                        <button type="submit" className="button-save">Save</button>
                         <button 
                             className="button-delete"
                             onClick={()=> deleteTestimonial(testimonial._id)}

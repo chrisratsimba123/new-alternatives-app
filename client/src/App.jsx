@@ -1,11 +1,11 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom'
-import './App.css';
-import Home from './Screens/Home/Home'
-import OurStories from './Screens/OurStories/OurStories'
-import TestimonialCreate from './Screens/TestimonialCreate/TestimonialCreate'
-import TestimonialDetail from './Screens/TestimonialDetail/TestimonialDetail'
-import DeadLinks from './Screens/DeadLinks/DeadLinks'
+import React from "react";
+import { Route, Switch } from "react-router-dom"
+import "./App.css";
+import Home from "./Screens/Home/Home"
+import OurStories from "./Screens/OurStories/OurStories"
+import TestimonialCreate from "./Screens/TestimonialCreate/TestimonialCreate"
+import TestimonialDetail from "./Screens/TestimonialDetail/TestimonialDetail"
+import DeadLinks from "./Screens/DeadLinks/DeadLinks"
 
 function App() {
   return (

@@ -1,7 +1,7 @@
-import React from 'react'
-import Layout from '../../Components/Shared/Layout/Layout'
-import Construction from '../../Assets/page-under-construction.png'
-import './DeadLinks.css'
+import React from "react"
+import Layout from "../../Components/Shared/Layout/Layout"
+import Construction from "../../Assets/page-under-construction.png"
+import "./DeadLinks.css"
 
 const DeadLinks = () => {
 

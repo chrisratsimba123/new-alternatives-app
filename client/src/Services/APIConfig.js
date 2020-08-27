@@ -1,13 +1,13 @@
-import axios from 'axios'
+import axios from "axios"
 
 let apiUrl
 
 const apiUrls = {
-    production: 'https://new-alternatives-app.herokuapp.com/api/',
-    development: 'http://localhost:3000/api'
+    production: "https://new-alternatives-app.herokuapp.com/api/",
+    development: "http://localhost:3000/api"
 }
 
-if (window.location.hostname === 'localhost') {
+if (window.location.hostname === "localhost") {
     apiUrl = apiUrls.development
 } else {
     apiUrl = apiUrls.production
