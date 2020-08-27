@@ -9,7 +9,6 @@ const DeadLinks = () => {
     <>
     <Layout>
         <div className="dead-image-div">
-            {/* <h1 className="coming-soon">Coming Soon</h1> */}
         <img className="construction-image" src={Construction}/>
         </div>
     </Layout>

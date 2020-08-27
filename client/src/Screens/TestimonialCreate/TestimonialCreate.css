@@ -1,6 +1,5 @@
 .complete-testimonial-create-screen {
   font-family: "Open Sans", sans-serif;
-  /* margin-top: 50px; */
 }
 
 .testimonial-title {
@@ -49,7 +48,6 @@ select:focus {
 input,
 textarea {
   font-family: Georgia, "Times New Roman", Times, serif;
-  /* border: none; */
   width: 80%;
 }
 
@@ -82,7 +80,6 @@ textarea {
   cursor: pointer;
 }
 
-/* =====  Thank you ======= */
 .submit-thankyou-container {
   margin-top: 150px;
 }

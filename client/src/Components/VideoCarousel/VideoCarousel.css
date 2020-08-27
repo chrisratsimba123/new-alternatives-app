@@ -1,11 +1,9 @@
-.video-wrapper{/*  granddaddy */
+.video-wrapper{
     margin-top: 100px;
     width: 100vw;
     height: 200px;
     display: flex;
     justify-content: center; 
-    /* background-color: green; */
-    /* position: relative; */
 }
 .video-header {
     position: absolute;
@@ -24,16 +22,13 @@
 }
 
  .video-container{
-    /* background-color: yellow; */
     padding: 30px;
     padding-right: 5px;
     height: 70%;
 }
 
 .video {
-    /* overflow: hidden; */
     outline: 0;
-    /* background-color: red; */
     height: 100%;
 } 
 
@@ -55,7 +50,6 @@
     background: rgba(0,0,0,0.7);
 }
 .btn {
-    /* position: absolute; */
     background-color: transparent;
     outline: none;
     border: none;

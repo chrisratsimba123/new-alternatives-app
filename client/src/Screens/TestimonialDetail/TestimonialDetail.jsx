@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import { useParams, Redirect } from "react-router-dom"
-
 import "./TestimonialDetail.css"
 import "../../Components/Shared/Nav/Nav.css"
 import { getTestimonial, updateTestimonial, deleteTestimonial } from "../../Services/Testimonials"

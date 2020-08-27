@@ -15,7 +15,6 @@ const Home = () => {
   return (
     <>
       <Layout>
-
         <Hero className="hero" src={RainbowFlag} alt="rainbow flag" />
         <div className="purple-icons-first">
           <div className="icon">
@@ -28,30 +27,25 @@ const Home = () => {
               <p>raised in one year</p>
             </div>
           </div>
-
           <div className="icon">
             <div className="icon-image">
               <img src={IconFlag} alt="Icon: Flag" />
             </div>
             <div className="icon-text">
-
               <h1>40%</h1>
               <p>of LGBTQ+ are homeless in NYC</p>
             </div>
           </div>
-
           <div className="icon">
             <div className="icon-image">
               <img src={IconKnifeAndFork} alt="Icon: Knife and fork" />
             </div>
             <div className="icon-text">
-
               <h1>10K</h1>
               <p>meals provided thus far</p>
             </div>
           </div>
         </div>
-
         <div className="who-we-help">
           <h1 className="who-we-help-h1">Who We Help</h1>
           <p className="who-we-help-p">
@@ -84,8 +78,6 @@ const Home = () => {
         </div>
       </Layout>
     </>
-
   );
 };
 export default Home;
-

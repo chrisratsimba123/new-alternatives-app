@@ -1,13 +1,14 @@
-.complete-testimonial-detail-screen{
+.complete-testimonial-detail-screen {
     font-family: "Open Sans", sans-serif;
     margin-top: 10px;
     margin-bottom: 100px;
 }
-.edit-header{
+
+.edit-header {
     margin-top: 50px;
 }
 
-.testimonial-form{
+.testimonial-form {
     position: relative;
     padding-top: 30px;
     display: flex;
@@ -18,15 +19,17 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.edit-content{
-     padding: 10px;
-     height: 300px;
-     box-sizing: border-box;
-     width: 90%;
-     border: 2px solid rgba(0, 0, 0, 0.201);
-     font-size: 24px;
+
+.edit-content {
+    padding: 10px;
+    height: 300px;
+    box-sizing: border-box;
+    width: 90%;
+    border: 2px solid rgba(0, 0, 0, 0.201);
+    font-size: 24px;
 } 
-.edit-author{
+
+.edit-author {
     font-size: 24px;
     box-sizing: border-box;
     width: 90%;
@@ -34,13 +37,15 @@
     margin-top: 15px;
     border: 2px solid rgba(0, 0, 0, 0.201);
 }
-.button-container{
+
+.button-container {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     margin-top: 35px;
 }
-.button-save{
+
+.button-save {
     padding: 5px;
     margin-left: 10px;
     font-size: 22px;
@@ -52,7 +57,7 @@
     width: 30%;
 }
 
-.button-delete{
+.button-delete {
     padding: 6px;
     margin-right: 10px;
     font-size: 22px;
