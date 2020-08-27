@@ -37,7 +37,7 @@ function PhotoCarousel() {
           isIntrinsicHeight={true}
           infinite={true}
         >
-          <h1 className="photo-title">Past Events</h1>
+          <h1 className="photo-component-title">Past Events</h1>
           <ButtonBack className="btn back-btn-photo">
             <img className="back-icon" src={LeftArrow} alt="left arrow" />
           </ButtonBack>
@@ -51,13 +51,19 @@ function PhotoCarousel() {
                 <img className="photo-image" src={ThreeGuys} />
                 {isVisible1 && (
                   <div className="absol">
-                    <h3>New Alternatives, NYC</h3>
-                    <p className="photo-desc">
-                      GIVE LOVE & HOPE : support NEW ALTERNATIVES FOR LGBT
-                      HOMELESS YOUTH : make a one time donation, create your own
-                      fundraising page, or become a recurring donor by visiting
-                      https://www.newalternativesnyc.org/ : GIVE LOVE & HOPE
-                    </p>
+                    <a
+                      href="https://www.instagram.com/p/BydIKa2BOcV/?utm_source=ig_web_copy_link"
+                      target="blank"
+                    >
+                      <h3>New Alternatives, NYC</h3>
+                      <p className="photo-desc">
+                        GIVE LOVE & HOPE : support NEW ALTERNATIVES FOR LGBT
+                        HOMELESS YOUTH : make a one time donation, create your
+                        own fundraising page, or become a recurring donor by
+                        visiting https://www.newalternativesnyc.org/ : GIVE LOVE
+                        & HOPE
+                      </p>
+                    </a>
                   </div>
                 )}
               </div>
@@ -71,11 +77,17 @@ function PhotoCarousel() {
                 <img className="photo-image" src={YogaPose} />
                 {isVisible2 && (
                   <div className="absol">
-                    <h3>New Alternatives, NYC</h3>
-                    <p className="photo-desc">
-                      Yoga with @threeandahalfacresyoga at New Alt last night
-                      #yoga #healing #volunteering #lgbtq🌈 #lgbtqhomelessyouth
-                    </p>
+                    <a
+                      href="https://www.instagram.com/p/B7RBalIhap2/?utm_source=ig_web_copy_link"
+                      target="blank"
+                    >
+                      <h3>New Alternatives, NYC</h3>
+                      <p className="photo-desc">
+                        Yoga with @threeandahalfacresyoga at New Alt last night
+                        #yoga #healing #volunteering #lgbtq🌈
+                        #lgbtqhomelessyouth
+                      </p>
+                    </a>
                   </div>
                 )}
               </div>
@@ -89,13 +101,18 @@ function PhotoCarousel() {
                 <img className="photo-image" src={GirlClothing} />
                 {isVisible3 && (
                   <div className="absol">
-                    <h3>New Alternatives, NYC</h3>
-                    <p className="photo-desc">
-                      Out My Closet brought their pop up shop to New Alt on
-                      sunday so that our clients could pick some summer clothes
-                      #outmycloset #clothes #homelessyouth #popupshop #donations
-                      #lgbtq🌈
-                    </p>
+                    <a
+                      href="https://www.instagram.com/p/CCoWebODbnv/?utm_source=ig_web_copy_link"
+                      target="blank"
+                    >
+                      <h3>New Alternatives, NYC</h3>
+                      <p className="photo-desc">
+                        Out My Closet brought their pop up shop to New Alt on
+                        sunday so that our clients could pick some summer
+                        clothes #outmycloset #clothes #homelessyouth #popupshop
+                        #donations #lgbtq🌈
+                      </p>
+                    </a>
                   </div>
                 )}
               </div>
@@ -109,12 +126,17 @@ function PhotoCarousel() {
                 <img className="photo-image" src={GuyGirl} />
                 {isVisible4 && (
                   <div className="absol">
-                    <h3>New Alternatives, NYC</h3>
-                    <p className="photo-desc">
-                      Thanks to Dr Rikki Morris for the donation of meals from
-                      @mademealsco #donations #mealstogo #pandemicresponse
-                      #feedingthehungry #lgbtq🌈
-                    </p>
+                    <a
+                      href="https://www.instagram.com/p/CBLuEcxD_aw/?utm_source=ig_web_copy_link"
+                      target="blank"
+                    >
+                      <h3>New Alternatives, NYC</h3>
+                      <p className="photo-desc">
+                        Thanks to Dr Rikki Morris for the donation of meals from
+                        @mademealsco #donations #mealstogo #pandemicresponse
+                        #feedingthehungry #lgbtq🌈
+                      </p>
+                    </a>
                   </div>
                 )}
               </div>
@@ -128,11 +150,17 @@ function PhotoCarousel() {
                 <img className="photo-image" src={GirlsMeals} />
                 {isVisible5 && (
                   <div className="absol">
-                    <h3>New Alternatives, NYC</h3>
-                    <p className="photo-desc">
-                      Pasta and meatballs to go at New Alt tonight #sundaydinner
-                      #spaghettiandmeatballs #pandemic #feedingthehungry #lgbtq
-                    </p>
+                    <a
+                      href="https://www.instagram.com/p/B-DuD9Qjr0O/?utm_source=ig_web_copy_link"
+                      target="blank"
+                    >
+                      <h3>New Alternatives, NYC</h3>
+                      <p className="photo-desc">
+                        Pasta and meatballs to go at New Alt tonight
+                        #sundaydinner #spaghettiandmeatballs #pandemic
+                        #feedingthehungry #lgbtq
+                      </p>
+                    </a>
                   </div>
                 )}
               </div>
@@ -146,12 +174,18 @@ function PhotoCarousel() {
                 <img className="photo-image" src={TwoPeople} />
                 {isVisible6 && (
                   <div className="absol">
-                    <h3>New Alternatives, NYC</h3>
-                    <p className="photo-desc">
-                      New Alt participated in the birthday party for Marsha P
-                      Johnson, who would have been 75 yesterday #marshapjohnson
-                      #transicon #pier45nyc #christopherstreet #lgbtq🌈
-                    </p>
+                    <a
+                      href="https://www.instagram.com/p/CEUhk61jhX5/?utm_source=ig_web_copy_link"
+                      target="blank"
+                    >
+                      <h3>New Alternatives, NYC</h3>
+                      <p className="photo-desc">
+                        New Alt participated in the birthday party for Marsha P
+                        Johnson, who would have been 75 yesterday
+                        #marshapjohnson #transicon #pier45nyc #christopherstreet
+                        #lgbtq🌈
+                      </p>
+                    </a>
                   </div>
                 )}
               </div>
@@ -165,13 +199,18 @@ function PhotoCarousel() {
                 <img className="photo-image" src={ThreePeople} />
                 {isVisible7 && (
                   <div className="absol">
-                    <h3>New Alternatives, NYC</h3>
-                    <p className="photo-desc">
-                      New Alt staff have been doing outreach to make sure that
-                      young people know about our meals and also to hand out
-                      masks, water, snacks, COVID info, condoms, etc #outreach
-                      #lgbtq🌈 #youthoutreach #homelessyouth #maskdistribution
-                    </p>
+                    <a
+                      href="https://www.instagram.com/p/CEAYt5gDr0V/?utm_source=ig_web_copy_link"
+                      target="blank"
+                    >
+                      <h3>New Alternatives, NYC</h3>
+                      <p className="photo-desc">
+                        New Alt staff have been doing outreach to make sure that
+                        young people know about our meals and also to hand out
+                        masks, water, snacks, COVID info, condoms, etc #outreach
+                        #lgbtq🌈 #youthoutreach #homelessyouth #maskdistribution
+                      </p>
+                    </a>
                   </div>
                 )}
               </div>

@@ -10,7 +10,17 @@
   width: 82vw;
 }
 
-.photo-title {
+.photo-carousel a {
+  display: inline-block;
+  margin-top: 0;
+  color: #000000;
+}
+
+a h3 {
+  font-size: 1.7vw;
+}
+
+.photo-component-title {
   position: absolute;
   font-size: 28px;
   top: -80px;
@@ -28,6 +38,9 @@
 
 .absol {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   top: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.8);
@@ -37,8 +50,8 @@
 
 .photo-desc {
   text-align: center;
-  margin: 20px;
-  font-size: 18px;
+  margin: 0 1.2vw;
+  font-size: 1.2vw;
   font-weight: 600;
 }
 
