@@ -14,20 +14,22 @@
   width: 210px;
   height: 108px;
   max-height: 108px;
-  margin: 93px 0px 0px 0px ;
+  margin-top: 93px;
+  /* margin-left: 100px */
+  margin-right: 200px
 }
 
 .logo-links {
-
+  margin-left: -250px
 }
 
 .nav-bar {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100vw;
+  /* align-items: right; */
+  /* width: 100vw; */
   /* margin-left: 170px; */
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .top-nav-bar{
@@ -35,25 +37,61 @@
   font-weight: 400; */
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
+  justify-content: right;
+  align-items: baseline;
+  margin-left: 100px
+  /* margin-top: 20px; */
+  /* margin-right: 300px; */
   /* align-items: ; */
   /* font-size: 16px; */
 }
 
-.nav-menu {
-  display: flex;
-  /* flex-direction: column-reverse; */
-  height: 56px;
-  width: 100vw;
-  list-style: none;
+.donate {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  width: 126px;
+  height: 60px;
+  justify-content: center;
+  background-color: #92bb65;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding-top: 16px;
+  /* margin-top: -300px; */
+  /* text-align: center */
+}
+.social-media{
+  display: flex;
+  /* flex-direction: row; */
+  /* padding-top: 100px; */
+  /* margin-top: 10px */
 }
 
 .contact-us {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 16px
+  font-size: 16px;
+  /* width: 40px */
+  /* margin-bottom: 10px; */
+  /* padding-bottom: 10px */
+}
+
+
+
+.nav-menu {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  justify-content: center;
+  /* height: 100px; */
+  width: 100px;
+  /* margin-right: 100px; */
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700
 }
 
 .nav-menu li{
@@ -65,7 +103,9 @@
   font-size: 22px;
   /* font-weight: bold; */
   /* margin-right: 20px; */
-  margin-bottom: 20px;
+  /* margin-bottom: 10px; */
+  width: 140px;
+  margin-right: 10px
   
 }
 
@@ -97,25 +137,7 @@
   flex-flow: nowrap;
 } */
 
-.donate {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  display: flex;
-  width: 126px;
-  height: 60px;
-  justify-content: center;
-  background-color: #92bb65;
-  color: white;
-  border: none;
-  outline: none;
-  box-shadow: none;
-  padding-top: 16px;
-}
 
-.social-media{
-  display: flex;
-}
 
 .get-help-menu {
 
