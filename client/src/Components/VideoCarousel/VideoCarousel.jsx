@@ -28,61 +28,60 @@ const VideoCarousel = () => {
                 </ButtonBack>          
                 <Slider className="video-container">
 
-                    <Slide>
-                        <div className="c-video">
-                            <video className="video" width="100%" height="100%" controls>
-                                <source src={Blue} type="video/mp4"/>
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </Slide>
-        
-                    <Slide>
-                        <div className="c-video">
-                            <video className="video" width="100%" height="100%" controls>
-                                <source src={Green} type="video/mp4"/>
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </Slide>
+          <Slide>
+            <div className="c-video">
+              <video className="video" width="100%" height="100%" controls>
+                <source src={Blue} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </Slide>
 
-                    <Slide>
-                        <div className="c-video">
-                        <video className="video" width="100%" height="100%" controls>
-                            <source src={Red} type="video/mp4"/>
-                            Your browser does not support the video tag.
-                        </video>
-                        </div>
-                    </Slide>
+          <Slide>
+            <div className="c-video">
+              <video className="video" width="100%" height="100%" controls>
+                <source src={Green} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </Slide>
 
-                    <Slide>
-                        <div className="c-video">
-                        <video className="video" width="100%" height="100%" controls>
-                            <source src={Yellow} type="video/mp4"/>
-                            Your browser does not support the video tag.
-                        </video>
-                        </div>
-                    </Slide>
+          <Slide>
+            <div className="c-video">
+              <video className="video" width="100%" height="100%" controls>
+                <source src={Red} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </Slide>
 
-                    <Slide>
-                        <div className="c-video">
-                        <video className="video" width="100%" height="100%" controls>
-                            <source src={Purple} type="video/mp4"/>
-                            Your browser does not support the video tag.
-                        </video>
-                        </div>
-                    </Slide>
+          <Slide>
+            <div className="c-video">
+              <video className="video" width="100%" height="100%" controls>
+                <source src={Yellow} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </Slide>
 
-                </Slider>
-                <ButtonNext className="video-forward-btn btn">
-                    <img className="forward-arrow" src={RightArrow} alt="right arrow" />
-                </ButtonNext>
-            </CarouselProvider>
-        </div>
-    )
-}
+          <Slide>
+            <div className="c-video">
+              <video className="video" width="100%" height="100%" controls>
+                <source src={Purple} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </Slide>
+        </Slider>
+        <ButtonNext className="video-forward-btn btn">
+          <img className="forward-arrow" src={RightArrow} alt="right arrow" />
+        </ButtonNext>
+      </CarouselProvider>
+    </div>
+  );
+};
 
-export default VideoCarousel
+export default VideoCarousel;
 
 /* CITED 
 //https://github.com/express-labs/pure-react-carousel 

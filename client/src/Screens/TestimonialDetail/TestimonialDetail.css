@@ -38,6 +38,8 @@
     border: 2px solid rgba(0, 0, 0, 0.201);
 }
 
+/* ==== Save and Delete Buttons ==== */
+
 .button-container {
     display: flex;
     justify-content: space-evenly;
