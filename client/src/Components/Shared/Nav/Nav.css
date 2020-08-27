@@ -10,7 +10,7 @@
   display: flex;
   align-items: flex-end;
   min-width: 220px;
-  margin: 0 0 20px 9vw;
+  margin: 0 0 20px 8vw;
 }
 
 .logo {
@@ -20,44 +20,52 @@
 .nav-bar {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  margin-right: 9vw;
+  justify-content: space-evenly;
+  width: calc(100% - 200px);
+  margin-right: 8vw;
+  margin-top: 30px;
 }
 
 .top-nav-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+}
+
+.social-component {
+  margin: 0 !important;
+}
+
+.contact-us {
+  margin-right: 2vw;
+  font-size: 13px;
+}
+
+.contact-us:hover {
+  border-bottom: 2px solid #94b957 !important;
 }
 
 .nav-menu {
   display: flex;
-  font-size: 17px;
-  height: 56px;
-  list-style: none;
+  justify-content: center;
 }
 
-.nav-menu li {
-  display: flex;
-  flex-direction: column;
-  flex-flow: nowrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  font-size: 13px;
+.nav-menu .nav-links {
+  font-size: 18px;
+  padding-bottom: 4px;
+  margin: 0 0 4px 4vw;
   font-weight: bold;
-  margin-right: 20px;
-  margin-bottom: 20px;
 }
 
 .nav-links {
   text-decoration: none;
+  white-space: nowrap;
   color: black;
-  width: 150px;
 }
 
 .nav-links:hover {
   border-bottom: 4px solid #94b957;
+  margin-bottom: 0;
 }
 
 .donate {
@@ -65,14 +73,13 @@
   font-weight: 700;
   font-size: 18px;
   display: flex;
-  width: 126px;
-  height: 60px;
   justify-content: center;
+  align-items: center;
+  width: 116px;
+  height: 50px;
   background-color: #92bb65;
   color: white;
   border: none;
-  outline: none;
-  box-shadow: none;
-  padding-top: 16px;
-  margin: 0;
+  margin: 0 0 0 2vw;
+  border-radius: 3px;
 }
