@@ -91,7 +91,7 @@ function PhotoCarousel() {
                   <div className="absol">
                     <p className="photo-desc">
                       new_alternatives_nyc Out My Closet brought their pop up
-                      shop to New Alt on sunday so that our clients could pick
+                      shop to New Alt on Sunday so that our clients could pick
                       some summer clothes #outmycloset #clothes #homelessyouth
                       #popupshop #donations #lgbtq🌈 -- July 24, 2020
                     </p>
