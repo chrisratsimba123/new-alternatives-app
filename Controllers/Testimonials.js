@@ -1,7 +1,7 @@
-const Testimonial = require('../Models/Testimonial')
-const db = require('../DB/Connections')
+const Testimonial = require("../Models/Testimonial")
+const db = require("../DB/Connections")
 
-db.on('error', console.error.bind(console, 'MongoDB connection error:'))
+db.on("error", console.error.bind(console, "MongoDB connection error:"))
 
 const getTestimonial = async (req, res) => {
     try {
@@ -10,7 +10,7 @@ const getTestimonial = async (req, res) => {
         if (testimonial) {
             return res.json(testimonial)
         }
-        res.status(404).json({ message: 'testimonial not found!' })
+        res.status(404).json({ message: "testimonial not found!" })
     } catch (error) {
         res.status(500).json({ error: error.message })
     }
@@ -24,7 +24,6 @@ const getTestimonials = async (req, res) => {
         res.status(500).json({ error: error.message })
     }
 }
-
 
 const createTestimonial = async (req, res) => {
     try {
@@ -44,7 +43,7 @@ const updateTestimonial = async (req, res) => {
             return res.status(500).json({ error: error.message })
         }
         if (!testimonial) {
-            return res.status(404).json({ message: 'testimonial not found!' })
+            return res.status(404).json({ message: "testimonial not found!" })
         }
         res.status(200).json(testimonial)
     })

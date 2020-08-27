@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose")
 const Schema = mongoose.Schema
 
 const Testimonial = new Schema(
@@ -9,4 +9,4 @@ const Testimonial = new Schema(
     { timestamps: true }
 )
 
-module.exports = mongoose.model('testimonial', Testimonial)
+module.exports = mongoose.model("testimonial", Testimonial)
