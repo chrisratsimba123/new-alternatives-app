@@ -49,8 +49,13 @@ const TestimonialDetail = () => {
       <div className="complete-testimonial-detail-screen">
         <h1 className="edit-header">Edit Your Testimonial</h1>
         <div className="testimonial-form">
+        <img 
+              src={LeftQuote} 
+              alt="quote mark" 
+              className="edit-left-quote" 
+            />
           <form onSubmit={handleSubmit}>
-            <img src={LeftQuote} alt="quote mark" className="edit-left-quote" />
+            
             <textarea
               className="edit-content"
               name="content"
