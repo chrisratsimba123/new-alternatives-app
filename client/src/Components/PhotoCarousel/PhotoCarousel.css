@@ -12,6 +12,7 @@
 
 .photo-title {
   position: absolute;
+  font-size: 28px;
   top: -80px;
   left: 0.5vw;
   color: #92bb65;
@@ -35,6 +36,7 @@
 }
 
 .photo-desc {
+  text-align: center;
   margin: 20px;
   font-size: 18px;
   font-weight: 600;

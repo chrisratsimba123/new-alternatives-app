@@ -51,11 +51,11 @@ function PhotoCarousel() {
                 <img className="photo-image" src={ThreeGuys} />
                 {isVisible1 && (
                   <div className="absol">
+                    <h3>New Alternatives, NYC</h3>
                     <p className="photo-desc">
-                      new_alternatives_nyc GIVE LOVE & HOPE : support NEW
-                      ALTERNATIVES FOR LGBT HOMELESS YOUTH : make a one time
-                      donation, create your own fundraising page, or become a
-                      recurring donor by visiting
+                      GIVE LOVE & HOPE : support NEW ALTERNATIVES FOR LGBT
+                      HOMELESS YOUTH : make a one time donation, create your own
+                      fundraising page, or become a recurring donor by visiting
                       https://www.newalternativesnyc.org/ : GIVE LOVE & HOPE
                     </p>
                   </div>
@@ -71,10 +71,10 @@ function PhotoCarousel() {
                 <img className="photo-image" src={YogaPose} />
                 {isVisible2 && (
                   <div className="absol">
+                    <h3>New Alternatives, NYC</h3>
                     <p className="photo-desc">
-                      new_alternatives_nyc Yoga with @threeandahalfacresyoga at
-                      New Alt last night #yoga #healing #volunteering #lgbtq🌈
-                      #lgbtqhomelessyouth
+                      Yoga with @threeandahalfacresyoga at New Alt last night
+                      #yoga #healing #volunteering #lgbtq🌈 #lgbtqhomelessyouth
                     </p>
                   </div>
                 )}
@@ -89,11 +89,12 @@ function PhotoCarousel() {
                 <img className="photo-image" src={GirlClothing} />
                 {isVisible3 && (
                   <div className="absol">
+                    <h3>New Alternatives, NYC</h3>
                     <p className="photo-desc">
-                      new_alternatives_nyc Out My Closet brought their pop up
-                      shop to New Alt on sunday so that our clients could pick
-                      some summer clothes #outmycloset #clothes #homelessyouth
-                      #popupshop #donations #lgbtq🌈 -- July 24, 2020
+                      Out My Closet brought their pop up shop to New Alt on
+                      sunday so that our clients could pick some summer clothes
+                      #outmycloset #clothes #homelessyouth #popupshop #donations
+                      #lgbtq🌈
                     </p>
                   </div>
                 )}
@@ -108,10 +109,11 @@ function PhotoCarousel() {
                 <img className="photo-image" src={GuyGirl} />
                 {isVisible4 && (
                   <div className="absol">
+                    <h3>New Alternatives, NYC</h3>
                     <p className="photo-desc">
-                      new_alternatives_nyc Thanks to Dr Rikki Morris for the
-                      donation of meals from @mademealsco #donations #mealstogo
-                      #pandemicresponse #feedingthehungry #lgbtq🌈
+                      Thanks to Dr Rikki Morris for the donation of meals from
+                      @mademealsco #donations #mealstogo #pandemicresponse
+                      #feedingthehungry #lgbtq🌈
                     </p>
                   </div>
                 )}
@@ -126,10 +128,10 @@ function PhotoCarousel() {
                 <img className="photo-image" src={GirlsMeals} />
                 {isVisible5 && (
                   <div className="absol">
+                    <h3>New Alternatives, NYC</h3>
                     <p className="photo-desc">
-                      new_alternatives_nyc Pasta and meatballs to go at New Alt
-                      tonight #sundaydinner #spaghettiandmeatballs #pandemic
-                      #feedingthehungry #lgbtq
+                      Pasta and meatballs to go at New Alt tonight #sundaydinner
+                      #spaghettiandmeatballs #pandemic #feedingthehungry #lgbtq
                     </p>
                   </div>
                 )}
@@ -144,11 +146,11 @@ function PhotoCarousel() {
                 <img className="photo-image" src={TwoPeople} />
                 {isVisible6 && (
                   <div className="absol">
+                    <h3>New Alternatives, NYC</h3>
                     <p className="photo-desc">
-                      new_alternatives_nyc New Alt participated in the birthday
-                      party for Marsha P Johnson, who would have been 75
-                      yesterday #marshapjohnson #transicon #pier45nyc
-                      #christopherstreet #lgbtq🌈
+                      New Alt participated in the birthday party for Marsha P
+                      Johnson, who would have been 75 yesterday #marshapjohnson
+                      #transicon #pier45nyc #christopherstreet #lgbtq🌈
                     </p>
                   </div>
                 )}
@@ -163,12 +165,12 @@ function PhotoCarousel() {
                 <img className="photo-image" src={ThreePeople} />
                 {isVisible7 && (
                   <div className="absol">
+                    <h3>New Alternatives, NYC</h3>
                     <p className="photo-desc">
-                      new_alternatives_nyc New Alt staff have been doing
-                      outreach to make sure that young people know about our
-                      meals and also to hand out masks, water, snacks, COVID
-                      info, condoms, etc #outreach #lgbtq🌈 #youthoutreach
-                      #homelessyouth #maskdistribution
+                      New Alt staff have been doing outreach to make sure that
+                      young people know about our meals and also to hand out
+                      masks, water, snacks, COVID info, condoms, etc #outreach
+                      #lgbtq🌈 #youthoutreach #homelessyouth #maskdistribution
                     </p>
                   </div>
                 )}
