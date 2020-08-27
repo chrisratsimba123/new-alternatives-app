@@ -1,14 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { useParams, Redirect } from "react-router-dom";
-
-import "./TestimonialDetail.css";
-import "../../Components/Shared/Nav/Nav.css";
-import {
-  getTestimonial,
-  updateTestimonial,
-  deleteTestimonial,
-} from "../../Services/Testimonials";
-import Layout from "../../Components/Shared/Layout/Layout";
+import React, { useState, useEffect } from "react"
+import { useParams, Redirect } from "react-router-dom"
+import "./TestimonialDetail.css"
+import "../../Components/Shared/Nav/Nav.css"
+import { getTestimonial, updateTestimonial, deleteTestimonial } from "../../Services/Testimonials"
+import Layout from "../../Components/Shared/Layout/Layout"
 import LeftQuote from "../../Assets/left-quote.png";
 import RightQuote from "../../Assets/right-quote.png";
 

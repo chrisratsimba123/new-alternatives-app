@@ -1,7 +1,7 @@
-const db = require('../DB/Connections')
-const Testimonial = require('../Models/Testimonial')
+const db = require("../DB/Connections")
+const Testimonial = require("../Models/Testimonial")
 
-db.on('error', console.error.bind(console, 'MongoDB connection error:'))
+db.on("error", console.error.bind(console, "MongoDB connection error:"))
 
 const main = async () => {
     const testimonials = 

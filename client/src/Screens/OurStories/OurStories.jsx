@@ -34,12 +34,8 @@ const OurStories = () => {
           </div>
         </div>
         <TestimonialsCarousel content={testimonials} />
-
         <VideoCarousel />
-      
-
         <PhotoCarousel />
-
       </div>
     </Layout>
   );

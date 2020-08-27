@@ -1,5 +1,3 @@
-
-/* <Homepage /> Section: First Row of Three Purple Icons*/
 .purple-icons-first {
   display: flex;
   flex-direction: row;
@@ -9,7 +7,6 @@
   padding-top: 40px;
   margin-right: 170px;
   margin-left: 200px;
- 
 }
 
 .icon {
@@ -18,9 +15,9 @@
 }
 
 .icon-text {
- display: flex;
- flex-direction: column;
- justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .icon-text h1 {
@@ -33,8 +30,6 @@
   text-align: center;
 }
 
-/*
-/* <Homepage /> Section: Who We Help*/
 .who-we-help {
   display: flex;
   flex-direction: column;
@@ -62,8 +57,6 @@
   margin: 0px 320px 50px 270px;
 }
 
-/*
-/* Homepage /> Section: Get Involved*/
 .get-involved {
   display: flex;
   flex-direction: column;
@@ -95,8 +88,3 @@
 .get-involved h2 {
   font-size: 30px;
 }
-
-
-
-
-
