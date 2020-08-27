@@ -46,7 +46,7 @@ const Nav = (props) => {
           </div>
           <div className='nav-bar'>
               <div className="top-nav-bar">
-                <button className='donate' alt='donate button'>Donate</button>
+                <button className='donate' alt='donate button'><a href="https://fundraise.newalternativesnyc.org/give/157653/#!/donation/checkout" target="_blank">Donate</a></button>
                 <Social className="social-media"/>
                 <NavLink className="nav-links" to="/coming-soon">
                   <h6 className="contact-us">Contact Us</h6>
