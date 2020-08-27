@@ -5,11 +5,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 import "./VideoCarousel.css"
 import LeftArrow from "../../Assets/left-arrow.png";
 import RightArrow from "../../Assets/right-arrow.png";
-import Purple from "../../Assets/Videos/Purple.mp4"
-import Blue from "../../Assets/Videos/Blue.mp4"
-import Green from "../../Assets/Videos/Green.mp4"
-import Red from "../../Assets/Videos/Red.mp4"
-import Yellow from "../../Assets/Videos/Yellow.mp4"
+import Videos from "../../Assets/Videos/Videos"
 
 const VideoCarousel = () => {
     
@@ -32,7 +28,7 @@ const VideoCarousel = () => {
                     <Slide>
                         <div className="c-video">
                             <video className="video" width="100%" height="100%" controls>
-                                <source src={Blue} type="video/mp4"/>
+                                <source src={Videos} type="video/mp4"/>
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -41,7 +37,7 @@ const VideoCarousel = () => {
                     <Slide>
                         <div className="c-video">
                             <video className="video" width="100%" height="100%" controls>
-                                <source src={Green} type="video/mp4"/>
+                                <source src={Videos} type="video/mp4"/>
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -50,7 +46,7 @@ const VideoCarousel = () => {
                     <Slide>
                         <div className="c-video">
                         <video className="video" width="100%" height="100%" controls>
-                            <source src={Red} type="video/mp4"/>
+                            <source src={Videos} type="video/mp4"/>
                             Your browser does not support the video tag.
                         </video>
                         </div>
@@ -59,7 +55,7 @@ const VideoCarousel = () => {
                     <Slide>
                         <div className="c-video">
                         <video className="video" width="100%" height="100%" controls>
-                            <source src={Yellow} type="video/mp4"/>
+                            <source src={Videos} type="video/mp4"/>
                             Your browser does not support the video tag.
                         </video>
                         </div>
@@ -68,7 +64,7 @@ const VideoCarousel = () => {
                     <Slide>
                         <div className="c-video">
                         <video className="video" width="100%" height="100%" controls>
-                            <source src={Purple} type="video/mp4"/>
+                            <source src={Videos} type="video/mp4"/>
                             Your browser does not support the video tag.
                         </video>
                         </div>
