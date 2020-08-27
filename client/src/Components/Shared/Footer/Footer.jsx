@@ -34,7 +34,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="email-subscribe">
-          <h5>Join Our Mailing List</h5>
+          <h5 className="mailing-list">Join Our Mailing List</h5>
           <Subscribe />
         </div>
         <div className="social-media">
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
 
         <div className="bottom-footer">
-          <h6>
+          <h6 className="copyright">
             © 2020 by New Alternatives | 410 West 40th Street, New York, NY
             10018 | info@newalternativesnyc.org
           </h6>

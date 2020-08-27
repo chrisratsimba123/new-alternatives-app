@@ -5,20 +5,20 @@
 
 .input-email {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     width: 252px;
     height: 60px;
     font-size: 18px;
-    border-radius: 3px;
+    border-radius: 3px 0px 0px 3px;
 }
 
 .subscribe-button {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     display: flex;
     width: 126px;
-    height: 60px;
+    height: 62px;
     justify-content: center;
     background-color: #92bb65;
     color: white;
@@ -26,5 +26,5 @@
     outline: none;
     box-shadow: none;
     padding-top: 16px;
-
+    border-radius: 0px 3px 3px 0px;
 }

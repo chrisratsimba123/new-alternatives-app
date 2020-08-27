@@ -40,7 +40,7 @@ const Nav = (props) => {
       <>
         <div className='nav-component'>
           <div className='title' alt='new alternatives'>
-            <NavLink className="nav-links" to="/">
+            <NavLink className="logo-links" to="/">
               <img src={Logo} alt="New Alternatives Logo"/>
             </NavLink>
           </div>
