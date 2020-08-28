@@ -19,10 +19,6 @@
 }
 
 .links {
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: space-around; */
-  /* padding: 5%; */
   text-decoration: none;
   color: white
 }
@@ -50,7 +46,6 @@ a {
   display: flex;
   justify-content: center;
   color: white;
-  /* padding: 0px 5px 0px 5px */
 }
 
 .social-icon {
