@@ -1,13 +1,14 @@
-.complete-testimonial-detail-screen{
+.complete-testimonial-detail-screen {
     font-family: "Open Sans", sans-serif;
     margin-top: 10px;
     margin-bottom: 100px;
 }
-.edit-header{
+
+.edit-header {
     margin-top: 50px;
 }
 
-.testimonial-form{
+.testimonial-form {
     position: relative;
     padding-top: 30px;
     display: flex;
@@ -18,28 +19,51 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.edit-content{
-     padding: 10px;
-     height: 300px;
-     box-sizing: border-box;
-     width: 90%;
-     border: 2px solid rgba(0, 0, 0, 0.201);
-     font-size: 24px;
+
+.edit-content {
+    padding: 10px;
+    height: 300px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.201);
+    font-size: 24px;
 } 
-.edit-author{
+
+.edit-author {
     font-size: 24px;
     box-sizing: border-box;
-    width: 90%;
+    width: 100%;
     margin-bottom: 15px;
     margin-top: 15px;
     border: 2px solid rgba(0, 0, 0, 0.201);
 }
-.button-container{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+
+.edit-left-quote{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    top: 10px;
+    left: 30px;
 }
-.button-save{
+
+.edit-right-quote{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    bottom: 130px;
+    right: 30px;
+}
+
+/* ==== Save and Delete Buttons ==== */
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.button-save {
     padding: 5px;
     margin-left: 10px;
     font-size: 22px;
@@ -49,9 +73,10 @@
     box-shadow: 2px 2px 10px 2px #cecece;
     cursor: pointer;
     width: 30%;
+    outline: none;
 }
 
-.button-delete{
+.button-delete {
     padding: 6px;
     margin-right: 10px;
     font-size: 22px;
@@ -61,4 +86,5 @@
     box-shadow: 2px 2px 10px 2px #cecece;
     cursor: pointer;
     width: 30%;
+    outline: none;
 }
