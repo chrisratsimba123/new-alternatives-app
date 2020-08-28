@@ -5,8 +5,25 @@ import Layout from "../../Components/Shared/Layout/Layout";
 import { createTestimonial } from "../../Services/Testimonials";
 import LeftQuote from "../../Assets/left-quote.png";
 import RightQuote from "../../Assets/right-quote.png";
+import { Transition } from "react-transition-group";
 
 const TestimonialCreate = () => {
+  // =========================================
+  const [inProp, updateInProp] = useState(false);
+
+  const defaultStyle = {
+    transition: "opacity 500ms ease-in-out",
+    opacity: 0,
+  };
+
+  const transitionStyles = {
+    entering: { opacity: 1 },
+    entered: { opacity: 1 },
+    exiting: { opacity: 0 },
+    exited: { opacity: 0 },
+  };
+
+  // =========================================
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -36,15 +53,31 @@ const TestimonialCreate = () => {
   };
 
   if (isCreated) {
-    setTimeout(testingRedirect, 3000);
+    // ==============================
+    updateInProp(true);
+    // ===============================
+    // setTimeout(testingRedirect, 3000);
 
     return (
       <div className="submit-thankyou-container">
-        <h1 className="submit-thankyou">Thank You!</h1>
-        <p className="submit-thankyou-text">
-          All new testimonials are reviewed and posted within 7 to 10 working
-          days.
-        </p>
+        {/* ========================================= */}
+        <Transition in={inProp} timeout={500}>
+          {(state) => (
+            <div
+              style={{
+                ...defaultStyle,
+                ...transitionStyles[state],
+              }}
+            >
+              <h1 className="submit-thankyou">Thank You!</h1>
+              <p className="submit-thankyou-text">
+                All new testimonials are reviewed and posted within 7 to 10
+                working days.
+              </p>
+            </div>
+          )}
+        </Transition>
+        {/* ========================================= */}
       </div>
     );
   }
