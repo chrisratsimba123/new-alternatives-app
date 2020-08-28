@@ -1,15 +1,17 @@
 .email-form {
     display: flex;
     justify-content: center;
+    margin-bottom: 16px
 }
 
 .input-email {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    width: 252px;
-    height: 60px;
+    width: 135px;
+    height: 30px;
     font-size: 18px;
     border-radius: 3px 0px 0px 3px;
+    font-size: 12px
 }
 
 .subscribe-button {
@@ -17,14 +19,15 @@
     font-weight: 400;
     font-size: 18px;
     display: flex;
-    width: 126px;
-    height: 62px;
+    width: 75px;
+    height: 32.5px;
     justify-content: center;
     background-color: #92bb65;
     color: white;
     border: none;
     outline: none;
     box-shadow: none;
-    padding-top: 16px;
+    padding-top: 8px;
     border-radius: 0px 3px 3px 0px;
+    font-size: 12px
 }
