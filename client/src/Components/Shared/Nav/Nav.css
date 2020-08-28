@@ -1,112 +1,75 @@
-/*
 /* <Nav /> Component*/
 .nav-component {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   height: 220px;
-  max-height: 220px;
 }
-
 .title {
   display: flex;
-  flex-direction: column;
-  width: 210px;
-  height: 108px;
-  max-height: 108px;
-  margin: 93px 0px 0px 0px ;
+  align-items: flex-end;
+  min-width: 220px;
+  margin: 0 0 20px 8vw;
 }
-
+.logo {
+  width: 100%;
+}
 .nav-bar {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  width: 440px;
-  margin-left: 170px;
-  justify-content: center;
+  justify-content: space-evenly;
+  width: calc(100% - 200px);
+  margin-right: 8vw;
+  margin-top: 30px;
 }
-
-.top-nav-bar{
+.top-nav-bar {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  /* align-items: ; */
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 45px;
 }
-
+.social-component {
+  margin: 0 !important;
+}
+.contact-us {
+  margin-right: 2vw;
+  font-size: 13px;
+}
+.contact-us:hover {
+  border-bottom: 2px solid #94b957 !important;
+}
 .nav-menu {
   display: flex;
-  /* flex-direction: column-reverse; */
-  font-size: 17px;
-  height: 56px;
-  list-style: none;
+  justify-content: center;
+  margin-bottom: 12px;
 }
-
-.nav-menu li{
-  display: flex;
-  flex-direction: column;
-  flex-flow: nowrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  font-size: 13px;
+.nav-menu .nav-links {
+  font-size: 18px;
+  padding-bottom: 4px;
+  margin: 0 0 4px 4vw;
   font-weight: bold;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  
 }
-
-.nav-links{
+.nav-links {
   text-decoration: none;
-  color: black
+  white-space: nowrap;
+  color: black;
 }
-
 .nav-links:hover {
-  color: rgb(148,185,87);
+  border-bottom: 4px solid #94b957;
+  margin-bottom: 0;
 }
-
-.nav-menu ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 5px;
-  margin: 0px;
-  list-style: none;
-}
-
-/* li {
-  display: flex;
-  flex-direction: row;
-  flex-flow: nowrap;
-} */
-
 .donate {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   display: flex;
-  width: 126px;
-  height: 60px;
   justify-content: center;
+  align-items: center;
+  width: 116px;
+  height: 50px;
   background-color: #92bb65;
   color: white;
   border: none;
-  outline: none;
-  box-shadow: none;
-  padding-top: 16px;
+  margin: 0 0 0 2vw;
+  border-radius: 3px;
 }
-
-.social-media{
-  display: flex;
-}
-
-.get-help-menu {
-
-}
-
-.get-involved-menu {
-  
-}
-
-.dropdown-item {
-  
-}
-/**/
