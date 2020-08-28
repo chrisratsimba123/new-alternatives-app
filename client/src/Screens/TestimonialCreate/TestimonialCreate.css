@@ -78,6 +78,7 @@ textarea {
   border: none;
   box-shadow: 2px 2px 10px 2px #cecece;
   cursor: pointer;
+  outline: none;
 }
 
 .submit-thankyou-container {
