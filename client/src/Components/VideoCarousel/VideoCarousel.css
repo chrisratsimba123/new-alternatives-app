@@ -1,14 +1,13 @@
 .video-wrapper{
     margin-top: 100px;
     width: 100vw;
-    height: 200px;
     display: flex;
     justify-content: center; 
 }
 
 .video-header {
   position: absolute;
-  top: -40px;
+  top: -60px;
   left: 4vw;
   color: #92bb65;
   font-size: 27px;
@@ -23,14 +22,16 @@
 }
 
 .video-container {
-  padding: 30px;
+  top: 0;
   padding-right: 5px;
   height: 70%;
+  outline: none;
 }
 
 .video {
     outline: 0;
     height: 100%;
+    width: 90%;
 } 
 
 .carousel__slide-focus-ring{
@@ -53,12 +54,12 @@
 }
 
 .video-back-btn {
-  top: 57%;
-  left: 0px;
+  top: 50%;
+  left: -20px;
 }
 
 .video-forward-btn {
-  top: 57%;
+  top: 50%;
   right: -20px;
 }
 
@@ -66,4 +67,36 @@
 .forward-arrow {
   height: 30px;
   width: 17px;
+}
+@media only screen and (max-width: 1245px) {
+  .carousel-complete {
+    width: 900px;
+  }
+
+  .video {
+    width: 90%;
+    height: 244px;
+  }
+
+  .video-back-btn,
+  .video-forward-btn {
+    top: 45%;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .carousel-complete {
+    width: 88.24%;
+  }
+
+  .video-back-btn,
+  .video-forward-btn {
+    top: 45%;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .carousel-complete {
+    width: 60%;
+  }
 }

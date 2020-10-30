@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import "./VideoCarousel.css"
@@ -11,6 +11,16 @@ import Red from "../../Assets/Videos/Red.mp4";
 import Yellow from "../../Assets/Videos/Yellow.mp4";
 
 const VideoCarousel = () => {
+  const [numOfSlides, updateNumOfSlides] = useState(3);
+
+  useEffect(() => {
+    function handleResize() {
+      updateNumOfSlides(Math.floor(window.innerWidth / 415));
+
+      window.addEventListener("resize", handleResize);
+    }
+    handleResize();
+  });
 
     return(    
         <div className="video-wrapper">                                             
@@ -19,7 +29,7 @@ const VideoCarousel = () => {
                 naturalSlideWidth={400}
                 naturalSlideHeight={200}
                 totalSlides={5}
-                visibleSlides={3}
+                visibleSlides={numOfSlides}
                 infinite={true}
             >
                 <h3 className="video-header">#WhatAboutUs</h3>
