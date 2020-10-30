@@ -1,7 +1,6 @@
 .video-wrapper{
     margin-top: 100px;
     width: 100vw;
-    height: 200px;
     display: flex;
     justify-content: center; 
 }
@@ -66,4 +65,37 @@
 .forward-arrow {
   height: 30px;
   width: 17px;
+}
+@media only screen and (max-width: 1245px) {
+  .carousel-complete {
+    width: 900px;
+  }
+
+  .video {
+    width: 90%;
+    height: 244px;
+  }
+
+  .video-back-btn,
+  .video-forward-btn {
+    top: 13.5vw;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .carousel-complete {
+    width: 88.24%;
+  }
+
+  .video-back-btn,
+  .video-forward-btn {
+    /* top: 17.5vw; */
+    top: 22vh;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .carousel-complete {
+    width: 60%;
+  }
 }
